@@ -1,0 +1,4 @@
+Title: Training Techniques to Obtain Fault Tolerant Neural Networks
+Relation: The paper discusses methods for improving fault tolerance in neural networks, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper provides insights into training techniques for improving fault tolerance in neural networks, which can be compared and contrasted with fault tolerance techniques in hardware for deep learning.
+Relevance rating: 7

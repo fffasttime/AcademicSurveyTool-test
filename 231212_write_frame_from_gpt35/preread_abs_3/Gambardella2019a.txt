@@ -1,0 +1,4 @@
+Title: Efficient Error-Tolerant Quantized Neural Network Accelerators
+Relation: The paper focuses on evaluating the impact of permanent faults affecting Quantized Neural Networks (QNNs) and proposes methods to increase their robustness in hardware accelerators, which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the impact of permanent faults on Quantized Neural Networks and the proposed methods for increasing their robustness in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 7

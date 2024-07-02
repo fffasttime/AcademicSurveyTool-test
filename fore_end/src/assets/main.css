@@ -1,0 +1,18 @@
+/* @import './base.css'; */
+
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+a{
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  color: var(--text-color);
+  background: var(--surface-ground);
+}

@@ -1,0 +1,4 @@
+Title: Robust machine learning systems: Challenges, current trends, perspectives, and the road ahead
+Relation: The paper discusses challenges and solutions for security attacks on machine learning-inspired hardware and software techniques, which is related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the challenges and potential solutions for security attacks on machine learning hardware and software in the context of fault tolerance for deep learning.
+Relevance rating: 7

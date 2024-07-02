@@ -1,0 +1,4 @@
+Title: INA: Incremental network approximation algorithm for limited precision deep neural networks
+Relation: The paper proposes a hardware-software co-design algorithm, INA, to improve fault tolerance of Deep Neural Networks (DNNs) by addressing the convergence problem and achieving tradeoffs between accuracy and implementation cost, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the hardware-software co-design approach for improving fault tolerance in DNNs and the tradeoffs between accuracy and implementation cost in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 7

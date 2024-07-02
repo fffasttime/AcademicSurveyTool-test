@@ -1,0 +1,5 @@
+Relation: The paper presents a framework named Ares for quantifying the resilience of deep neural networks (DNNs) to hardware-level faults, focusing on the impact of bit errors on DNN accuracy and exploring fault tolerance at the model, layer, and structure levels.
+
+Suggestion: Cite this paper to discuss methods for evaluating the fault tolerance of DNNs and to highlight the variability in resilience across different models and layers within the hardware error fault tolerance context.
+
+Relevance rating: 9

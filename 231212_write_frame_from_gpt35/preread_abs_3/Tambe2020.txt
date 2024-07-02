@@ -1,0 +1,4 @@
+Title: Algorithm-hardware co-design of adaptive floating-point encodings for resilient deep learning inference
+Relation: The paper focuses on the co-design of adaptive floating-point encodings for deep learning inference, aiming to improve accuracy and efficiency, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the co-design approaches for adaptive floating-point encodings and their impact on fault tolerance in deep learning hardware.
+Relevance rating: 7

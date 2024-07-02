@@ -1,0 +1,88 @@
+ID: 1
+Relation: The paper presents an error injection-based methodology and tool to study the soft error resilience of massively parallel applications running on GPUs, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited as an example of a tool for evaluating the resilience of GPU applications to soft errors.
+Relevance rating: 7
+
+---
+ID: 2
+Relation: The paper focuses on assessing the functional criticality of faults in AI accelerators, which is related to the evaluation of fault tolerance in hardware for deep learning applications.
+Suggestion: This paper can be cited to discuss the assessment of functionally critical faults in AI accelerators and their relevance to fault tolerance in deep learning hardware.
+Relevance rating: 6
+
+---
+ID: 3
+Relation: The paper introduces a resilience analysis framework for deep learning accelerators, addressing the limitations of existing techniques and providing accurate and quick analysis of hardware errors, which is highly relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper provides a comprehensive framework for analyzing hardware errors in deep learning accelerators and can be cited as a valuable tool for resilience analysis.
+Relevance rating: 8
+
+---
+ID: 4
+Relation: The paper discusses Batch Normalization, a technique for accelerating deep network training, which is not directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: not relevant
+Relevance rating: 2
+
+---
+ID: 5
+Relation: The paper presents an algorithm-hardware co-design for DNNs, focusing on efficient inference on FPGAs, which is not directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: not relevant
+Relevance rating: 3
+
+---
+ID: 6
+Relation: The paper introduces a new Hessian Aware Pruning (HAP) method for reducing the memory footprint and FLOPs associated with neural network models, which is not directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: not relevant
+Relevance rating: 3
+
+---
+ID: 7
+Relation: The paper presents a fault injection tool, MindFI, for reliability assessment of MindSpore applications, which is relevant to the topic of evaluating the reliability of DNN applications at faulty conditions.
+Suggestion: This paper can be cited as an example of a fault injection tool for evaluating the reliability of DNN applications.
+Relevance rating: 6
+
+---
+ID: 8
+Relation: The paper proposes a three-level model, TRIDENT, to capture error propagation in programs, which is not directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: not relevant
+Relevance rating: 3
+
+---
+ID: 1
+Relation: This paper focuses on training deep networks with low-precision numeric representations to reduce energy consumption, which is related to the optimization of hardware for deep learning fault tolerance.
+Suggestion: This paper can be cited to discuss the optimization of deep networks for energy consumption reduction in the context of fault tolerance for deep learning hardware.
+Relevance rating: 5
+---
+ID: 2
+Relation: This paper presents a model for simulating spiking neurons, which is not directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: not relevant
+Relevance rating: 2
+---
+ID: 3
+Relation: This paper introduces TensorFI, a fault injection framework for TensorFlow-based applications, which is relevant to assessing the resilience of deep learning models to hardware faults.
+Suggestion: This paper can be cited to discuss the evaluation of resilience in TensorFlow-based deep learning applications.
+Relevance rating: 7
+---
+ID: 4
+Relation: This paper discusses the reduction of vulnerability surface in deep neural networks through proper design of quantization schemes and parameter distributions, which is relevant to the fault tolerance of deep learning hardware.
+Suggestion: This paper can be cited to explore the exploitation of inherent resilience characteristics in deep neural networks for fault tolerance.
+Relevance rating: 6
+---
+ID: 5
+Relation: This paper proposes statistical models to analyze the influence of soft errors on neural networks, which is relevant to understanding the impact of hardware errors on deep learning models.
+Suggestion: This paper can be cited to discuss the influence of soft errors on the reliability of neural networks in the context of hardware fault tolerance.
+Relevance rating: 8
+---
+ID: 6
+Relation: This paper presents Ares, a fault injection framework for understanding the relationship between fault rate and model accuracy in deep neural networks, which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the fault tolerance and resilience of deep neural networks in the presence of hardware errors.
+Relevance rating: 8
+---
+ID: 7
+Relation: This paper introduces HarDNN, a software-directed approach to identify vulnerable computations during CNN inference and selectively protect them, which is relevant to improving the resilience of CNNs to hardware errors.
+Suggestion: This paper can be cited to discuss the selective protection of vulnerable computations in CNNs for hardware fault tolerance.
+Relevance rating: 7
+---
+ID: 8
+Relation: This paper presents a rollout-based search algorithm unifying MCTS and alpha-beta, which is not directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: not relevant
+Relevance rating: 2
+---

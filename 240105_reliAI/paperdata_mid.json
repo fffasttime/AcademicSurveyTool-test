@@ -1,0 +1,102 @@
+{
+  "title": "A survey of hardware error fault tolerance for deep learning",
+  "addition_tldr": "(Hardware fault tolerance includes hardware related fault tolerance evaluation and fault tolerance design, with the aim of avoiding deep learning computational errors caused by hardware circuit errors.)",
+  "abstract": "",
+  "introduction_section": "",
+  "main_sections": [
+    {
+      "title": "section 2: Training and Retraining Strategies for Fault Tolerance",
+      "beginning": "This section explores various training and retraining methodologies designed to enhance the fault tolerance of deep learning models against hardware errors. We will discuss fault-aware training, incremental network approximation, and retraining-based timing error mitigation techniques.",
+      "ref_entries": [
+        "Zahid2020",
+        "Liu2019b",
+        "Chiu1994",
+        "Deng2015"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 3: Hardware-Software Co-Design for Error Resilience",
+      "beginning": "In this section, we delve into the intersection of hardware and software design to achieve fault tolerance in deep learning systems. We will examine co-design algorithms, predictive design paradigms, and the role of algorithm-hardware co-design in resilient deep learning inference.",
+      "ref_entries": [
+        "Liu2019b",
+        "Pandey2020",
+        "Tambe2020",
+        "Song2021"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 4: Fault Detection, Prediction, and Correction Techniques",
+      "beginning": "This section focuses on the mechanisms for detecting, predicting, and correcting faults in deep learning hardware. We will cover methods for neuron resilience prediction, fault detection and remedy frameworks, and safety design techniques for error localization and correction.",
+      "ref_entries": [
+        "Schorn2018c",
+        "Li2019",
+        "Xu2019",
+        "He2020",
+        "Schorn2018b",
+        "Wang2021",
+        "Khoshavi2020"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 5: Evaluation and Mitigation of Permanent and Transient Hardware Faults",
+      "beginning": "Here, we review the impact of both permanent and transient faults on deep learning hardware and discuss various mitigation strategies. We will consider the resilience of different neural network architectures to hardware errors and the role of fault-tolerant design in accelerators.",
+      "ref_entries": [
+        "Gambardella2019a",
+        "Mahdiani2012",
+        "Li2020",
+        "Libano2019a",
+        "Clemente2016",
+        "Karim2018a",
+        "Zhang2019c",
+        "Arechiga2018",
+        "Salami2018",
+        "Liu2019c",
+        "Li2017a",
+        "Yang2018a"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 6: Advanced Techniques and Frameworks for Fault Tolerance",
+      "beginning": "This section presents advanced techniques and frameworks that contribute to the fault tolerance of deep learning systems. We will explore the use of clipped activation, sensitivity-based techniques, dynamic quantization, and Bayesian approaches for assessing and improving hardware error resilience.",
+      "ref_entries": [
+        "Hoang2019",
+        "Choi2019a",
+        "Song2020a",
+        "Banerjee2019"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 7: Broader Perspectives on Reliability and Robustness in Deep Learning Systems",
+      "beginning": "In the final section, we provide a broader perspective on the challenges and opportunities in building reliable deep learning systems. We will discuss the importance of testing methodologies, the impact of storage media errors, and the need for robust machine learning systems that encompass hardware fault tolerance.",
+      "ref_entries": [
+        "Mittal2020",
+        "Torres-Huitzil2017",
+        "Ozen2019",
+        "Leung2017",
+        "Hari2020",
+        "Chaudhuri2020",
+        "Mandal2019",
+        "Gerasimou2020",
+        "Itsuji2020",
+        "Zhang2019a",
+        "Schorn2019a",
+        "Li2020a",
+        "Tsai2021",
+        "Qin2017",
+        "Kim2017",
+        "Chu2020",
+        "Santhanam2019",
+        "Chen2017a",
+        "Zhao2017",
+        "Torres-Huitzil2017a",
+        "Ma2019"
+      ],
+      "final_content": ""
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Title: INVITED: Building robust machine learning systems: Current progress, research challenges, and opportunities
+Relation: The paper discusses the challenges and opportunities in building robust machine learning systems, particularly in safety-critical applications, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the importance of reliability and security in deep learning applications, especially in safety-critical scenarios, and the challenges in building robust machine learning systems.
+Relevance rating: 7

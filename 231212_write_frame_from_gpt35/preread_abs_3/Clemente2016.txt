@@ -1,0 +1,4 @@
+Title: Hardware implementation of a fault-tolerant Hopfield Neural Network on FPGAs
+Relation: The paper discusses the hardware implementation of a fault-tolerant neural network and evaluates its robustness against circuit errors, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the implementation of fault-tolerant neural networks on hardware, and the evaluation of its robustness against circuit errors in the context of deep learning.
+Relevance rating: 7

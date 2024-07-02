@@ -1,0 +1,4 @@
+Title: Sanity-Check: Boosting the Reliability of Safety-Critical Deep Neural Network Applications
+Relation: The paper focuses on boosting the reliability of safety-critical deep neural network applications by addressing hardware-level faults, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to explore the implementation of fault tolerance methods, such as Sanity-Check, for deep learning hardware error fault tolerance in safety-critical applications.
+Relevance rating: 7

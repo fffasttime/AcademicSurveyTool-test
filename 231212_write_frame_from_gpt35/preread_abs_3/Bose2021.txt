@@ -1,0 +1,4 @@
+Title: Secure and Resilient SoCs for Autonomous Vehicles
+Relation: The paper discusses the design considerations for embedded systems-on-chip (SoCs) in autonomous vehicles, including reliability and safety, which are relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to provide insights into the design challenges and strategies for ensuring reliability in hardware systems for autonomous applications, which can be relevant to the discussion of hardware fault tolerance for deep learning.
+Relevance rating: 5

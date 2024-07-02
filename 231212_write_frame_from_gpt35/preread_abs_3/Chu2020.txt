@@ -1,0 +1,4 @@
+Title: PIM-Prune: Fine-Grain DCNN pruning for crossbar-based process-in-memory architecture
+Relation: This paper focuses on fine-grain DCNN pruning for a crossbar-based PIM architecture, aiming to reduce resource and power consumption, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the application of fine-grain pruning in crossbar-based PIM architecture for reducing resource and power consumption in deep learning hardware.
+Relevance rating: 7

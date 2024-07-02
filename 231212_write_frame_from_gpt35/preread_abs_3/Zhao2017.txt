@@ -1,0 +1,4 @@
+Title: AEP: An error-bearing neural network accelerator for energy efficiency and model protection
+Relation: The paper proposes a neural network accelerator design for IP protection by incorporating error-bearing techniques to protect the weight matrices, which is related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the design of hardware fault tolerance techniques for protecting neural network weight matrices and improving energy efficiency in deep learning systems.
+Relevance rating: 7

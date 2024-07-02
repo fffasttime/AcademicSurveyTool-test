@@ -1,0 +1,4 @@
+Title: A defect-tolerant accelerator for emerging high-performance applications
+Relation: This paper focuses on the design of defect-tolerant accelerators for high-performance applications, particularly in the context of hardware neural networks, which aligns with the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the development of defect-tolerant hardware accelerators for deep learning applications, highlighting the potential for fault tolerance in hardware neural networks.
+Relevance rating: 7

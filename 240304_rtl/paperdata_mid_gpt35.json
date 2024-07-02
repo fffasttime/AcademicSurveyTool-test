@@ -1,0 +1,67 @@
+{
+  "title": "A survey of RTL simulation acceleration",
+  "addition_tldr": "",
+  "abstract": "",
+  "introduction_section": "",
+  "main_sections": [
+    {
+      "title": "Section 1: Introduction",
+      "beginning": "The introduction section provides an overview of the importance of RTL simulation acceleration in the context of specialized compute systems and the challenges associated with slow hardware simulation speed, the need for faster fault simulation, and the potential of FPGA-accelerated simulation. It also sets the stage for discussing the various methodologies and tools available for accelerating RTL simulation.",
+      "ref_entries": [],
+      "final_content": ""
+    },
+    {
+      "title": "Section 2: Frameworks and Environments for RTL Simulation Acceleration",
+      "beginning": "This section explores the integrated design and simulation environment for specialized compute systems, including cloud-hosted FPGA-accelerated simulation (Chipyard), and the high-performance RTL simulator ESSENT. It also discusses the use of FAST for accelerating RTL fault simulation through automatic RTL-to-TLM abstraction.",
+      "ref_entries": [
+        "amidChipyardIntegratedDesign2020",
+        "beamerESSENTHighPerformanceRTL",
+        "bombieriFASTRTLFault2012"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "Section 3: FPGA-Accelerated Simulation and Evaluation",
+      "beginning": "This section focuses on the use of FPGA-accelerated simulation for improving simulation model accuracy (FASED) and the methodology for FPGA-accelerated simulation-based RTL verification (DESSERT). It also includes the discussion on the use of GPUs for accelerating RTL simulation (SimBSP) and the potential of using GPUs for simulation purposes (Opportunities for RTL and Gate Level Simulation Using GPUs).",
+      "ref_entries": [
+        "biancolinFASEDFPGAAcceleratedSimulation2019",
+        "kimDebuggingRISCVProcessors",
+        "qianAcceleratingRTLSimulation2011",
+        "zhangOpportunitiesRTLGate2020a"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "Section 4: Methodologies for RTL Simulation Acceleration",
+      "beginning": "This section covers the methodologies and tools for accelerating RTL simulation, including the use of pre-RTL simulation for early phase verification and fast prototyping (SimuNN), the parallel architecture tailored to RTL simulation workloads (ASH), and the potential of static bulk-synchronous parallelism in accelerating RTL simulation (Manticore). It also includes the discussion on the use of large language models for streamlined RTL code generation (Zero-Shot RTL Code Generation with Attention Sink Augmented Large Language Models).",
+      "ref_entries": [
+        "caoSimuNNPreRTLInference2020",
+        "elsabbaghAcceleratingRTLSimulation2023",
+        "emamiManticoreHardwareAcceleratedRTL2023",
+        "sandalZeroShotRTLCode2024"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "Section 5: Performance Evaluation and Power Modeling in RTL Simulation",
+      "beginning": "This section focuses on the performance evaluation at the RTL level for SoC development (Configurable Test Environment for RTL Simulation and Performance Evaluation of Network on Chip as Part of SoC) and the methodologies for energy estimation and runtime power modeling in RTL simulation (Strober, immani). It also includes the discussion on the use of multi-level simulation for evaluating RTL-level fault injection and cross-layer resiliency techniques (ETISS-ML).",
+      "ref_entries": [
+        "chusovConfigurableTestEnvironment2021",
+        "kimSimmaniRuntimePower2019",
+        "kimStroberFastAccurate2016",
+        "mueller-gritschnederETISSMLMultilevelInstruction2018"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "Section 6: Challenges and Opportunities in RTL Simulation Acceleration",
+      "beginning": "This section addresses the challenges and opportunities in RTL simulation acceleration, including the trade-offs between quality of results and productivity in RTL simulation acceleration (Are We There Yet? A Study on the State of High-Level Synthesis), the challenges in adapting simulators to diverse accelerator designs (Compiler-Driven Simulation of Reconfigurable Hardware Accelerators), and the challenges of semantic gap between HLS design and RTL simulation (FLASH: Fast, Parallel, and Accurate Simulator for HLS).",
+      "ref_entries": [
+        "lahtiAreWeThere2019",
+        "liCompilerDrivenSimulationReconfigurable2022",
+        "choiFLASHFastParallel2020"
+      ],
+      "final_content": ""
+    }
+  ]
+}

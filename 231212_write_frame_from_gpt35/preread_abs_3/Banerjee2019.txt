@@ -1,0 +1,4 @@
+Title: Towards a Bayesian Approach for Assessing Fault Tolerance of Deep Neural Networks
+Relation: This paper introduces a novel methodology for fault injection in neural networks using Bayesian Deep Learning, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the application of Bayesian Deep Learning in assessing fault tolerance for deep neural networks in the context of hardware errors.
+Relevance rating: 7

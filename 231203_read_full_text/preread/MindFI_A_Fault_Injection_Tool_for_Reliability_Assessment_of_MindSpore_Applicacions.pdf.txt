@@ -1,0 +1,5 @@
+Relation: The paper presents MindFI, a fault injection tool designed to assess the reliability of deep learning applications running on the MindSpore framework, specifically focusing on the impact of data, software, and hardware faults.
+
+Suggestion: Cite this paper to discuss methodologies for evaluating the fault tolerance of deep learning systems, particularly the use of fault injection tools like MindFI.
+
+Relevance rating: 7

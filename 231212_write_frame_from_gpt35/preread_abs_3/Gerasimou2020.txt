@@ -1,0 +1,4 @@
+Title: Importance-Driven Deep Learning System Testing
+Relation: The paper introduces a systematic testing methodology and test adequacy criterion for deep learning systems, which is relevant to the evaluation of hardware fault tolerance for deep learning in safety-critical applications.
+Suggestion: This paper can be used to discuss the importance of systematic testing and test adequacy criteria for deep learning systems in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7

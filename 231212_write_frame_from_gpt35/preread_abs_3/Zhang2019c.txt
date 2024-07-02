@@ -1,0 +1,4 @@
+Title: Fault-Tolerant Systolic Array Based Accelerators for Deep Neural Network Execution
+Relation: The paper discusses strategies for enhancing fault tolerance of systolic array based deep neural network accelerators, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper provides insights into fault tolerance strategies for systolic array based deep neural network accelerators, which can be used to discuss fault tolerance design in deep learning hardware.
+Relevance rating: 7

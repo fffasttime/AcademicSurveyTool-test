@@ -1,0 +1,4 @@
+Title: Energy proportional neural network inference with adaptive voltage and frequency scaling
+Relation: This paper focuses on optimizing the energy efficiency of neural network inference through voltage and frequency scaling, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the optimization of energy efficiency in neural network hardware design for fault tolerance in deep learning applications.
+Relevance rating: 7

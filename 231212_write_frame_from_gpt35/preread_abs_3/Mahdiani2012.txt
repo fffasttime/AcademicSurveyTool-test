@@ -1,0 +1,4 @@
+Title: Relaxed fault-tolerant hardware implementation of neural networks in the presence of multiple transient errors
+Relation: The paper discusses fault tolerance techniques for VLSI implementation of neural networks, which is relevant to the topic of hardware error fault tolerance for deep learning in the presence of transient errors.
+Suggestion: This paper provides insights into relaxed fault-tolerant techniques for VLSI implementation of neural networks, which can be used to compare with other fault tolerance methods in deep learning hardware.
+Relevance rating: 7

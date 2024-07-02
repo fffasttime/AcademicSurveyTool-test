@@ -1,0 +1,4 @@
+Title: DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration
+Relation: The paper proposes a dynamic quantization technique for deep neural network acceleration, which is relevant to the topic of hardware fault tolerance for deep learning as it addresses the precision of DNN models based on sensitive regions in the feature map to achieve greater acceleration while maintaining accuracy.
+Suggestion: This paper can be used to discuss the potential hardware fault tolerance techniques for deep learning, specifically in the context of dynamic quantization for DNN acceleration.
+Relevance rating: 7

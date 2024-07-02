@@ -1,0 +1,4 @@
+Title: FPGA-based Fault-injection and Data Acquisition of Self-repairing Spiking Neural Network Hardware
+Relation: This paper focuses on FPGA-based fault injection and data acquisition for a self-repairing spiking neural network hardware, which aligns with the topic of hardware fault tolerance for deep learning in terms of fault injection and monitoring.
+Suggestion: This paper can be used to discuss the application of FPGA-based fault tolerance techniques in the context of deep learning hardware error fault tolerance.
+Relevance rating: 7

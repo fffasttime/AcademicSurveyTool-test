@@ -1,0 +1,4 @@
+Title: FTT-NAS: Discovering Fault-Tolerant Neural Architecture
+Relation: This paper focuses on developing fault-tolerant neural architecture for edge devices, addressing the impact of hardware faults on deep learning applications, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to discuss the development of fault-tolerant neural architecture for edge devices and the impact of hardware faults on deep learning applications.
+Relevance rating: 7

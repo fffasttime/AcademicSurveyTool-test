@@ -1,0 +1,5 @@
+Relation: The paper "Ares: A framework for quantifying the resilience of deep neural networks" focuses on quantifying the fault tolerance of deep neural networks and explores the relationship between fault rate and model accuracy, which is directly related to the topic of "A survey of hardware error fault tolerance for deep learning".
+
+Suggestion: This paper can be used to discuss the quantification of fault tolerance in deep neural networks and the relationship between fault rate and model accuracy, providing insights into the fault tolerance of deep learning hardware.
+
+Relevance rating: 7

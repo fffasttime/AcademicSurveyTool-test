@@ -1,0 +1,4 @@
+Title: Selective hardening for neural networks in FPGAs
+Relation: This paper evaluates the effects of radiation-induced errors in neural networks implemented in FPGAs and proposes a selective hardening strategy to mitigate these errors, which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the susceptibility of FPGAs to radiation-induced errors and the proposed selective hardening strategy as a method for fault tolerance in deep learning hardware.
+Relevance rating: 8

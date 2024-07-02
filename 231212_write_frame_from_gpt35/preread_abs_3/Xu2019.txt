@@ -1,0 +1,4 @@
+Title: Safety design of a convolutional neural network accelerator with error localization and correction
+Relation: The paper focuses on safety design techniques for a convolutional neural network accelerator, aiming to detect and correct errors with minimal performance degradation, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss specific safety design techniques for deep learning hardware error fault tolerance and to compare with other fault tolerance methods.
+Relevance rating: 7

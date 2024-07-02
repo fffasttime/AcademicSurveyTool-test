@@ -1,0 +1,4 @@
+Title: A fault-tolerant neural network architecture
+Relation: The paper proposes a fault-tolerant neural network architecture to mitigate weight disturbance in DNN accelerators, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the design of fault-tolerant neural network architecture for mitigating hardware-related errors in deep learning computations.
+Relevance rating: 7

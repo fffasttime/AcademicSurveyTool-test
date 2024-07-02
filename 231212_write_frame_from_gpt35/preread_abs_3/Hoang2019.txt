@@ -1,0 +1,4 @@
+Title: FT-ClipAct: Resilience analysis of deep neural networks and improving their fault tolerance using clipped activation
+Relation: This paper focuses on analyzing fault tolerance of deep neural networks and proposes a novel error mitigation technique to improve resilience against hardware faults, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be cited as an example of a novel error mitigation technique to improve fault tolerance in deep neural networks when discussing fault tolerance design for deep learning hardware.
+Relevance rating: 7

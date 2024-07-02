@@ -1,0 +1,4 @@
+Title: ITT-RNA: Imperfection Tolerable Training for RRAM-Crossbar-Based Deep Neural-Network Accelerator
+Relation: The paper discusses the fault tolerance of RRAM-crossbar-based accelerators for deep neural networks, addressing the impact of fabrication imperfections on accuracy and proposing hardware and software co-design methodologies to mitigate errors.
+Suggestion: This paper can be used to discuss the fault tolerance challenges and solutions in RRAM-crossbar-based accelerators for deep learning, particularly in addressing the impact of fabrication imperfections on accuracy and proposing hardware and software co-design methodologies to mitigate errors.
+Relevance rating: 7

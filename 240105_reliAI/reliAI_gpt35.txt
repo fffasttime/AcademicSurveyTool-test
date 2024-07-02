@@ -1,0 +1,168 @@
+Title: A survey of hardware error fault tolerance for deep learning
+
+Abstract:
+
+This literature review surveys the landscape of hardware fault tolerance for deep learning, with a focus on strategies to mitigate the impact of hardware errors on deep learning computations. The paper explores various thematic sections, including training and retraining strategies for fault tolerance, hardware-software co-design for error resilience, fault detection, prediction, and correction techniques, evaluation and mitigation of permanent and transient hardware faults, advanced techniques and frameworks for fault tolerance, and broader perspectives on reliability and robustness in deep learning systems. Each section provides a comprehensive review of relevant literature, highlighting the significance of hardware fault tolerance in deep learning and presenting advanced techniques and frameworks that contribute to the fault tolerance of deep learning systems. The survey aims to provide a comprehensive understanding of the current state of research in hardware fault tolerance for deep learning and to identify potential avenues for future exploration and development in this critical area.
+
+\section{Introduction}
+Deep learning has emerged as a powerful tool for various applications, including safety-critical domains such as automotive, avionics, medical, and industrial systems. However, the reliability of deep learning models can be compromised by hardware errors, leading to computational errors and potential safety hazards. In response to this challenge, researchers have been exploring hardware fault tolerance techniques to enhance the resilience of deep learning models against such errors.
+
+This literature survey explores the landscape of hardware fault tolerance for deep learning, focusing on strategies to mitigate the impact of hardware errors on deep learning computations. The survey is organized into several thematic sections, each addressing specific aspects of hardware fault tolerance in deep learning.
+
+The first section, "Training and Retraining Strategies for Fault Tolerance," delves into various training and retraining methodologies designed to enhance the fault tolerance of deep learning models against hardware errors. It discusses fault-aware training, incremental network approximation, and retraining-based timing error mitigation techniques.
+
+The subsequent sections cover hardware-software co-design for error resilience, fault detection, prediction, and correction techniques, evaluation and mitigation of permanent and transient hardware faults, advanced techniques and frameworks for fault tolerance, and broader perspectives on reliability and robustness in deep learning systems.
+
+Each section provides a comprehensive review of relevant literature, highlighting the significance of hardware fault tolerance in deep learning and presenting advanced techniques and frameworks that contribute to the fault tolerance of deep learning systems.
+
+Overall, this literature survey aims to provide a comprehensive understanding of the current state of research in hardware fault tolerance for deep learning and to identify potential avenues for future exploration and development in this critical area.
+\section{Training and Retraining Strategies for Fault Tolerance}
+
+This section explores various training and retraining methodologies designed to enhance the fault tolerance of deep learning models against hardware errors. We will discuss fault-aware training, incremental network approximation, and retraining-based timing error mitigation techniques.
+
+\subsection{Fault-Aware Training}
+
+Zahid et al. proposed a novel methodology called fault-aware training (FAT) to enhance the resilience of quantized neural networks (QNNs) against hardware faults \cite{Zahid2020}. The authors addressed the need for functional safety in safety-critical applications, such as automotive, avionics, medical, and industrial systems, where hardware faults must be mitigated to ensure reliable inference. By injecting faults in the convolutional layers during training, highly accurate convolutional neural networks (CNNs) were trained, exhibiting much better error tolerance compared to the original. Furthermore, redundant systems built from QNNs trained with FAT achieved higher worst-case accuracy at lower hardware cost. This methodology provides a domain-specific solution to exploit the inherent features of DNNs, thereby decreasing the hardware cost for achieving functional safety.
+
+\subsection{Incremental Network Approximation}
+
+Liu et al. introduced the Incremental Network Approximation (INA) algorithm, a hardware-software co-design algorithm aimed at improving fault tolerance in DNNs \cite{Liu2019b}. INA addresses the convergence problem and promotes fault tolerance of DNNs, yielding tradeoffs between accuracy and implementation cost. The experiments conducted by the authors demonstrated that the approximate inference models re-trained by INA could achieve significant hardware reduction while maintaining high classification accuracy. This algorithm provides an example of co-design algorithms that enhance fault tolerance in deep learning hardware.
+
+\subsection{Training Techniques for Fault Tolerant Neural Networks}
+
+Chiu et al. explored training techniques to improve fault tolerance in neural networks, presenting methods to coerce weights to have low magnitudes during the backpropagation training process and to add artificial faults to various components of a network during training \cite{Chiu1994}. The experimental results showed that these methods can obtain better robustness than backpropagation training and compare favorably with other approaches. This paper provides insights into training strategies that can lead to more fault-tolerant deep learning models.
+
+\subsection{Retraining-Based Timing Error Mitigation}
+
+Deng et al. discussed retraining neural network accelerators to mitigate timing errors, a specific aspect of hardware fault tolerance in deep learning \cite{Deng2015}. The authors leveraged the error resiliency of neural networks to mitigate timing errors in NN accelerators, proposing to retrain the accelerators to update their weights when timing errors significantly affect the output results. The experimental results demonstrated that timing errors in NN accelerators can be effectively mitigated for different applications. This paper illustrates how retraining can be used as a strategy for hardware fault tolerance in neural network accelerators.
+\section{Hardware-Software Co-Design for Error Resilience}
+
+In this section, we delve into the intersection of hardware and software design to achieve fault tolerance in deep learning systems. We will examine co-design algorithms, predictive design paradigms, and the role of algorithm-hardware co-design in resilient deep learning inference.
+
+\subsection{Co-Design Algorithms for Fault Tolerance}
+
+The concept of hardware-software co-design is crucial for achieving fault tolerance in deep learning systems. Liu et al. proposed the Incremental Network Approximation (INA) algorithm, which is a hardware-software co-design approach aimed at improving fault tolerance in Deep Neural Networks (DNNs) \cite{Liu2019b}. INA addresses the convergence problem associated with highly approximate arithmetics in DNNs, promoting fault tolerance and offering tradeoffs between accuracy and implementation cost. The experiments conducted by Liu et al. demonstrated that the approximate inference models re-trained by INA could achieve significant hardware reduction while maintaining high classification accuracy, showcasing the effectiveness of co-design algorithms in enhancing fault tolerance in deep learning hardware.
+
+Furthermore, Tambe et al. introduced an algorithm-hardware co-design centered around a novel floating-point inspired number format, AdaptivFloat, which dynamically maximizes and optimally clips its available dynamic range to create faithful encodings of neural network parameters \cite{Tambe2020}. This approach consistently produced higher inference accuracies compared to conventional quantization methods at low bit precision, demonstrating the potential of algorithm-hardware co-design in improving fault tolerance and resilience in deep learning inference.
+
+\subsection{Predictive Design Paradigms for Error Resilience}
+
+Predictive design paradigms play a significant role in improving error resilience in deep learning hardware. Pandey et al. presented GreenTPU, a predictive design paradigm for improving timing error resilience of a near-threshold Tensor Processing Unit (TPU) \cite{Pandey2020}. By identifying patterns in error-causing activation sequences and intermittently boosting the operating voltage of specific multiplier-and-accumulator units, GreenTPU enables higher performance in an NTC TPU with minimal loss in prediction accuracy. This predictive design approach showcases the potential of hardware design paradigms in enhancing error resilience and energy efficiency in deep learning hardware.
+
+\subsection{Balancing Software Solutions and Hardware Endurance}
+
+Song et al. proposed a software and hardware co-design methodology to address imperfections in RRAM-crossbar-based DNN accelerators, aiming to preserve classification accuracy with few on-device training iterations \cite{Song2021}. This approach leverages the inherent self-healing capability of the neural network and dynamic adjustment mechanisms to prevent and mitigate errors induced by imperfect memristors. By balancing software solutions and hardware endurance, this co-design methodology effectively guarantees minimal loss of accuracy even in the presence of resistance variations and stuck-at-faults (SAFs). This work highlights the importance of integrating software and hardware solutions to achieve fault tolerance and error resilience in deep learning hardware.
+
+In summary, the integration of hardware and software design is essential for achieving fault tolerance and error resilience in deep learning systems. Co-design algorithms, predictive design paradigms, and the balance between software and hardware solutions play crucial roles in enhancing fault tolerance and resilience in deep learning hardware. These approaches not only address the challenges posed by hardware errors but also pave the way for more efficient and reliable deep learning systems.
+\section{Fault Detection, Prediction, and Correction Techniques}
+
+This section focuses on the mechanisms for detecting, predicting, and correcting faults in deep learning hardware. We will cover methods for neuron resilience prediction, fault detection and remedy frameworks, and safety design techniques for error localization and correction.
+
+\subsection{Neuron Resilience Prediction}
+
+Accurate prediction of neuron resilience is crucial for managing reliability in neural network hardware accelerators. Schorn et al. proposed a method for predicting the error resilience of neurons in deep neural networks, which significantly improves upon existing methods in terms of accuracy and interpretability \cite{Schorn2018b}. By simulating hardware faults in networks trained on image classification benchmarks, the authors demonstrated the effectiveness of their resilience prediction method and its potential for a flexible trade-off between reliability and efficiency in neural network hardware accelerators.
+
+Furthermore, Wang et al. introduced an online fault detection method, Adversarial Testing (AT), tailored for neural network accelerator chips. This function-level testing method exhibits negligible run-time overhead and super sensitivity to subtle hardware variations, ensuring the normal use of deep learning accelerators during their lifetime \cite{Wang2021}.
+
+These predictive methods for neuron resilience provide valuable insights into enhancing the reliability and fault tolerance of deep learning hardware.
+
+\subsection{Fault Detection and Remedy Frameworks}
+
+Li et al. presented RRAMedy, a framework for in-situ fault detection and network remedy for memristor-based neural accelerators. The proposed Adversarial Example Testing accurately detects defected cells and memristor soft faults, with the model accuracy being restored through edge-cloud collaborative fault-masking retraining and model updating mechanisms \cite{Li2019}. This framework effectively protects the neural accelerator from accuracy and performance degradation throughout its life cycle.
+
+Moreover, Khoshavi et al. proposed SHIELDeNN, an end-to-end inference accelerator framework that synergizes the mitigation approach and computational resources to realize a low-overhead error-resilient Neural Network (NN) overlay. By developing a rigorous fault assessment paradigm, SHIELDeNN improves the error-resiliency magnitude of neural network parameters, thereby enhancing fault tolerance \cite{Khoshavi2020}.
+
+These fault detection and remedy frameworks offer practical solutions for mitigating errors in neural network hardware and improving fault tolerance.
+
+\subsection{Safety Design Techniques for Error Localization and Correction}
+
+Xu et al. introduced safety design techniques, including Algorithm Based Atomic Error Checking (ABAEC-1 and ABAEC-2), for a Weight Stationary Convolutional Neural Network (CNN) accelerator. These techniques focus on low latency and low overhead error detection and correction without performance degradation. The proposed design not only detects errors on-the-fly but also performs error diagnosis to localize the errors for on-line fault management and recovery \cite{Xu2019}.
+
+Additionally, He et al. presented FIdelity, a resilience analysis framework for deep learning accelerators that accurately and quickly analyzes the behavior of hardware errors. By modeling transient errors in logic components, FIdelity ensures the reliability requirements are met for safe deployment in a wide range of applications, including safety-critical scenarios such as self-driving cars \cite{He2020}.
+
+These safety design techniques provide insights into error detection, localization, and correction without compromising the performance of CNN hardware accelerators.
+
+In summary, the literature reviewed in this section demonstrates a variety of approaches for detecting, predicting, and correcting faults in deep learning hardware. These methods contribute to the development of fault-tolerant hardware for deep learning systems, ensuring reliability and resilience in safety-critical applications.
+\section{Evaluation and Mitigation of Permanent and Transient Hardware Faults}
+
+Here, we review the impact of both permanent and transient faults on deep learning hardware and discuss various mitigation strategies. We will consider the resilience of different neural network architectures to hardware errors and the role of fault-tolerant design in accelerators.
+
+\subsection{Evaluation of Permanent Faults in Neural Network Accelerators}
+
+Permanent faults in hardware components can significantly impact the performance and reliability of neural network accelerators. The work by Gambardella et al. \cite{Gambardella2019a} provides valuable insights into the evaluation of permanent faults affecting Quantized Neural Networks (QNNs) and methods to decrease their effects in hardware accelerators. The study utilizes FPGA-based hardware accelerated error injection to evaluate the impact of permanent faults on QNNs, demonstrating that QNNs containing convolutional layers are not as robust to faults as commonly believed. The findings emphasize the importance of assessing the robustness of neural network architectures to permanent faults and highlight the need for effective fault-tolerant design in hardware accelerators.
+
+Additionally, Mahdiani et al. \cite{Mahdiani2012} discuss the development of relaxed fault-tolerant techniques for VLSI implementation of neural networks, focusing on cost-effective fault tolerance that leverages the inherent resilience of neural networks. The proposed relaxed fault-tolerant techniques offer insights into mitigating the impact of permanent faults in neural network hardware implementations, providing a valuable perspective on achieving fault tolerance without significant performance degradation or cost escalation.
+
+\subsection{Mitigation of Transient Faults in Hardware Accelerators}
+
+Transient faults, such as single event upsets (SEUs) in FPGA-based accelerators, pose significant challenges to the fault tolerance of deep learning hardware. Li et al. \cite{Li2020} present a fault-tolerant design for Convolutional Neural Network (CNN) accelerators on FPGAs, addressing the impact of SEUs and proposing error mitigation techniques. The study analyzes the sensibility of CNNs to SEUs and introduces fault-tolerant design strategies, offering practical methods to achieve fault tolerance in FPGA-based hardware accelerators.
+
+Moreover, Libano et al. \cite{Libano2019a} evaluate the impact of radiation-induced errors in neural networks implemented in FPGAs and propose a selective hardening strategy to mitigate the effects of such errors. The selective hardening approach, which triplicates only the most vulnerable layers of the neural network, provides a targeted and efficient method for mitigating transient faults in hardware implementations. This work serves as a case study for hardware error fault tolerance strategies in neural network implementations on FPGAs, shedding light on effective mitigation techniques for transient faults.
+
+\subsection{Resilience of Neural Network Architectures to Hardware Errors}
+
+Understanding the resilience of neural network architectures to hardware errors is crucial for developing effective fault-tolerant designs. Arechiga et al. \cite{Arechiga2018} investigate the robustness of modern deep learning architectures against single event upset errors, focusing on the resilience of Convolutional Neural Networks (CNNs) to bit flips in their weights. The study provides valuable insights into the resilience of various neural network architectures to hardware errors, offering a comprehensive analysis of the impact of errors on network performance and identifying architectural factors that contribute to greater robustness.
+
+Furthermore, Salami et al. \cite{Salami2018} study fault characterization and mitigation in Register-Transfer Level (RTL) models of neural network accelerators, providing a detailed analysis of the vulnerability of various components of RTL neural network implementations and proposing low-overhead fault mitigation techniques. This work serves as an example of fault characterization and mitigation techniques in hardware accelerators for neural networks, contributing to the understanding of fault tolerance at the architectural level.
+
+In summary, the evaluation and mitigation of permanent and transient hardware faults in neural network accelerators are essential for ensuring the reliability and robustness of deep learning hardware. By considering the insights and strategies presented in the referenced literature, researchers and practitioners can advance the development of fault-tolerant designs and enhance the resilience of hardware implementations for deep learning applications. Additionally, the investigation of the resilience of neural network architectures to hardware errors provides valuable guidance for the design and optimization of fault-tolerant hardware accelerators.
+\section{Advanced Techniques and Frameworks for Fault Tolerance}
+
+This section presents advanced techniques and frameworks that contribute to the fault tolerance of deep learning systems. We will explore the use of clipped activation, sensitivity-based techniques, dynamic quantization, and Bayesian approaches for assessing and improving hardware error resilience.
+
+\subsection{Clipped Activation for Improving Fault Tolerance}
+
+Hoang et al. proposed a novel error mitigation technique, FT-ClipAct, which focuses on improving the resilience of Deep Neural Networks (DNNs) to hardware faults \cite{Hoang2019}. The technique involves replacing the unbounded activation functions with their clipped versions to alleviate the impact of high-intensity faulty activation values. By systematically defining the clipping values of the activation functions, the resilience of the networks against faults is significantly improved. Experimental results on the AlexNet and VGG-16 DNNs trained for the CIFAR-10 dataset demonstrated a substantial improvement in classification accuracy, particularly at higher fault rates.
+
+This approach is valuable for enhancing fault tolerance in deep learning systems by addressing the impact of hardware faults on DNN parameters. It provides a practical method for mitigating errors caused by hardware circuit faults, thereby contributing to the overall fault tolerance of deep learning systems.
+
+\subsection{Sensitivity-Based Techniques for Energy-Efficient DNN Accelerators}
+
+Choi et al. introduced sensitivity-based error resilient techniques for energy-efficient DNN accelerators, focusing on enabling aggressive voltage scaling by exploiting different levels of error resilience within DNN layers, filters, and channels \cite{Choi2019a}. The proposed techniques leverage the sensitivity variation among filter weights to design DNN accelerators that assign computations with more sensitive weights to more robust processing units, thereby achieving energy savings without significant accuracy loss.
+
+This work is relevant to the topic of hardware fault tolerance as it addresses the energy-efficient design of DNN accelerators while considering the impact of hardware errors on the resilience of deep learning computations. By incorporating sensitivity-based techniques, DNN accelerators can effectively mitigate the effects of hardware faults, contributing to improved fault tolerance in deep learning systems.
+
+\subsection{Dynamic Quantization for DNN Acceleration}
+
+Song et al. presented a dynamic region-based quantization technique, DRQ, for deep neural network acceleration, which dynamically adjusts the precision of a DNN model based on sensitive regions in the feature map to achieve greater acceleration while preserving accuracy \cite{Song2020a}. The proposed technique identifies sensitive regions in the feature map and utilizes a variable-speed mixed-precision convolution array to enable dynamic quantization, resulting in significant performance gains and energy reduction without substantial accuracy loss.
+
+While not directly addressing hardware faults, dynamic quantization techniques like DRQ are essential for maintaining deep learning performance in the presence of hardware limitations. By dynamically adjusting precision based on feature map dynamics, these techniques indirectly contribute to fault tolerance by ensuring accurate and efficient DNN computations despite potential hardware errors.
+
+\subsection{Bayesian Approach for Assessing Fault Tolerance}
+
+Banerjee et al. presented a Bayesian Deep Learning based Fault Injection (BDLFI) methodology for assessing the fault tolerance of neural networks, using Bayesian Deep Learning to model the propagation of faults and Markov Chain Monte Carlo inference to quantify the effect of faults on the outputs of a NN \cite{Banerjee2019}. This advanced technique provides a novel approach to fault injection and assessment in deep learning systems, challenging pre-existing results in the field.
+
+The Bayesian approach presented in this work offers a sophisticated method for evaluating the fault tolerance of deep neural networks, which is crucial for understanding the impact of hardware faults on deep learning computations. By leveraging Bayesian Deep Learning, this methodology provides valuable insights into the resilience of neural networks to hardware errors, contributing to the broader understanding of fault tolerance in deep learning systems.
+
+In summary, the advanced techniques and frameworks discussed in this section offer valuable insights and methodologies for improving the fault tolerance of deep learning systems in the presence of hardware errors. These approaches provide practical strategies for mitigating the impact of hardware faults on deep neural networks, ultimately enhancing the resilience and reliability of deep learning computations. Additionally, they pave the way for further research and development in fault tolerance techniques for deep learning systems.
+\section{Broader Perspectives on Reliability and Robustness in Deep Learning Systems}
+
+In the final section, we provide a broader perspective on the challenges and opportunities in building reliable deep learning systems. We will discuss the importance of testing methodologies, the impact of storage media errors, and the need for robust machine learning systems that encompass hardware fault tolerance.
+
+\subsection{State-of-the-Art in DNN Reliability and Hardware Error Resilience}
+
+The reliability of Deep Neural Network (DNN) algorithms and accelerators has become increasingly crucial, especially as they are being deployed in mission-critical applications \cite{Mittal2020}. Mittal et al. present a comprehensive survey of techniques for studying and optimizing the reliability of DNN accelerators and architectures, emphasizing the importance of designing for reliability as the first principle, rather than retrofitting for it. The paper underscores the significance of considering soft/hard errors arising due to process variation, voltage scaling, timing errors, and DRAM errors, highlighting the need for robust hardware error resilience in DNN systems.
+
+Torres-Huitzil et al. provide a detailed review of fault tolerance in neural networks, focusing on passive techniques and briefly touching upon active fault tolerance methods \cite{Torres-Huitzil2017}. The paper categorizes fault types, models, and measures used to evaluate performance, providing a taxonomy of the main techniques to enhance the intrinsic properties of neural models for fault tolerance. This review is valuable for understanding the principles and taxonomy of fault tolerance techniques in neural networks, which are directly relevant to hardware error fault tolerance in deep learning.
+
+\subsection{Specific Methods for Hardware Error Resilience}
+
+Ozen et al. introduce Sanity-Check, a method for enhancing the reliability of DNNs against hardware-level faults, using spatial and temporal checksums to protect fully-connected and convolutional layers \cite{Ozen2019}. The proposed method can be purely implemented in software and seamlessly integrated with modern DNN accelerators, delivering perfect error-caused misprediction coverage. This specific method of using checksums for fault tolerance in deep learning is essential for ensuring the reliability of DNNs, especially in safety-critical systems like autonomous driving.
+
+Hari et al. focus on algorithmic error detection techniques for convolutions in Convolutional Neural Networks (CNNs), which are crucial for hardware fault tolerance in deep learning \cite{Hari2020}. The paper explores low-cost, algorithmic error detection techniques for CNNs, demonstrating their ability to detect transient hardware errors while incurring low runtime overheads. These techniques are essential for ensuring the resilience of CNNs against hardware faults.
+
+\subsection{Impact of Storage Media Errors and Process Variation}
+
+Qin et al. study the trade-offs between storage/bandwidth and prediction accuracy of neural networks stored in noisy media, highlighting the vulnerability of more sophisticated models and datasets to errors in their trained parameters \cite{Qin2017}. The proposed detection approach universally improves the robustness of deep neural networks, providing valuable insights into the impact of storage media errors on neural network robustness.
+
+Ma et al. address the issue of process variation in CNN accelerators and propose mitigation techniques to ensure consistent performance, which is a crucial aspect of hardware fault tolerance in deep learning systems \cite{Ma2019}. The proposed sub-matrix reformation mechanism and weight transfer technique enable CNN accelerators to tolerate low-frequency PEs, achieving significant processing speed improvement with negligible accuracy loss. This work provides specific examples of fault tolerance techniques in the context of CNN accelerators affected by process variation.
+
+\subsection{Testing Methodologies and Robustness in Deep Learning Systems}
+
+Gerasimou et al. introduce a systematic testing methodology accompanied by an Importance-Driven (IDC) test adequacy criterion for DNN systems, emphasizing the importance of testing methodologies in ensuring the reliability of deep learning systems \cite{Gerasimou2020}. The IDC criterion enables the establishment of a layer-wise functional understanding of the importance of DNN system components, contributing to the assessment of the semantic diversity of a test set. This methodology is crucial for evaluating the dependability of DNN systems, especially in the context of hardware faults.
+
+Zhang et al. discuss the broader topic of building robust machine learning systems, including the importance of robustness in machine learning systems, which encompasses hardware fault tolerance \cite{Zhang2019a}. The paper provides context on the importance of robustness in machine learning systems, highlighting the need for reliable and fault-tolerant systems, especially in safety-critical applications.
+
+\subsection{Conclusion and Future Outlook}
+
+In conclusion, the surveyed literature provides valuable insights into the state-of-the-art in DNN reliability and hardware error resilience, specific methods for hardware error resilience, the impact of storage media errors and process variation, testing methodologies, and the broader context of building robust machine learning systems. Moving forward, future research should focus on integrating these diverse perspectives to develop comprehensive and robust fault tolerance strategies for deep learning systems, especially in safety-critical and mission-critical applications. Additionally, exploring the intersection of fault tolerance with energy efficiency and model protection in neural network accelerators presents an exciting avenue for further investigation.

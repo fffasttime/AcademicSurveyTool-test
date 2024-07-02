@@ -1,0 +1,4 @@
+Title: Criticality aware soft error mitigation in the configuration memory of SRAM based FPGA
+Relation: The paper discusses error mitigation techniques for SRAM-based FPGAs, considering the criticality of tasks allocated in the configuration memory, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to explore the application of dynamic priority-based hardware scheduling algorithms for error correction in hardware fault tolerance for deep learning.
+Relevance rating: 7

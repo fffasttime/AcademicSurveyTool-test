@@ -1,0 +1,4 @@
+Title: Adversarial Testing : A Novel On-line Testing Method for Deep Learning Processors
+Relation: The paper focuses on developing a fault detection method for deep learning accelerators to protect them from hardware-induced failures, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to discuss the development of fault detection methods for deep learning accelerators and their relevance to hardware fault tolerance in deep learning systems.
+Relevance rating: 7

@@ -1,0 +1,4 @@
+Title: Non-Singular Adversarial Robustness of Neural Networks
+Relation: This paper focuses on the robustness of neural networks against input and weight perturbations, which is related to the topic of hardware error fault tolerance for deep learning in terms of addressing computational errors caused by hardware circuit errors.
+Suggestion: This paper can be used to discuss the comprehensive assessment of robustness in neural networks when considering both input and weight perturbations, which is crucial for understanding the impact of hardware errors on deep learning.
+Relevance rating: 7

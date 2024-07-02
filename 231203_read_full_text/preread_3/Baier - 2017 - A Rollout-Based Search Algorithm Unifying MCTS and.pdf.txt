@@ -1,0 +1,5 @@
+Relation: The paper "A Rollout-Based Search Algorithm Unifying MCTS and Alpha-Beta" introduces a hybrid search algorithm that combines Monte Carlo Tree Search (MCTS) and minimax with alpha-beta pruning, which is relevant to the user's literature review on hardware error fault tolerance for deep learning.
+
+Suggestion: This paper can be cited as it introduces a hybrid search algorithm that integrates MCTS and minimax with alpha-beta pruning, which can be relevant for discussing fault tolerance strategies in deep learning hardware.
+
+Relevance rating: 7

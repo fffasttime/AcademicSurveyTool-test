@@ -1,0 +1,4 @@
+Title: GreenTPU: Predictive Design Paradigm for Improving Timing Error Resilience of a Near-Threshold Tensor Processing Unit
+Relation: The paper focuses on improving timing error resilience in a near-threshold tensor processing unit (TPU) to reduce energy consumption, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the design paradigm for improving timing error resilience in TPUs and its impact on energy consumption in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7

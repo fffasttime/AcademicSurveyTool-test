@@ -1,0 +1,91 @@
+{
+  "title": "A survey of RTL simulation acceleration",
+  "addition_tldr": "",
+  "abstract": "",
+  "introduction_section": "",
+  "main_sections": [
+    {
+      "title": "section 2: Foundations and Direct Approaches for RTL Simulation Acceleration",
+      "beginning": "This section explores the foundational techniques and direct approaches employed to accelerate RTL simulation. It covers both software optimizations and hardware-accelerated methods, including leveraging GPUs and FPGAs for simulation tasks.",
+      "ref_entries": [
+        "beamerCaseAcceleratingSoftware2020",
+        "beamerEfficientlyExploitingLow2020b",
+        "beamerESSENTHighPerformanceRTL",
+        "elsabbaghAcceleratingRTLSimulation2023",
+        "emamiManticoreHardwareAcceleratedRTL2023",
+        "hoeferSiFIAIFastFlexible2023a",
+        "kolbiSymbolicRTLSimulation",
+        "maoAcceleratingLoopOrientedRTL2023",
+        "qianAcceleratingRTLSimulation2011",
+        "satoArchHDLNovelHardware2018",
+        "saxenaErrorModelEM2022",
+        "tineTangoOptimizingCompiler2020",
+        "wangRepCutSuperlinearParallel2023a",
+        "zengAccelerateLogicResimulation2021",
+        "zhangOpportunitiesRTLGate2020a",
+        "zhouKhronosFusingMemory2023"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 3: Hardware-Specific Acceleration Techniques",
+      "beginning": "Focusing on hardware-accelerated simulation, this section discusses specific techniques and frameworks that utilize FPGAs and GPUs to enhance RTL simulation speed, particularly for complex SoC designs and memory subsystems.",
+      "ref_entries": [
+        "amidChipyardIntegratedDesign2020",
+        "biancolinFASEDFPGAAcceleratedSimulation2019",
+        "bombieriFASTGPRTLFunctional2012",
+        "kimDebuggingRISCVProcessors",
+        "kimDESSERTDebuggingRTL2018",
+        "kimEvaluationRISCVRTL",
+        "kimSimmaniRuntimePower2019",
+        "kimStroberFastAccurate2016",
+        "laeuferRFUZZCoveragedirectedFuzz2018",
+        "linRTLCUDAGPU2022a",
+        "maALAMOFPGAAcceleration2018",
+        "sanaullahSimBSPEnablingRTL",
+        "zhaoEmpyreanALPSGTGPUaccelerated"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 4: High-Level Synthesis (HLS) and Pre-RTL Simulation Frameworks",
+      "beginning": "This section covers the role of high-level synthesis and pre-RTL simulation frameworks in accelerating the RTL simulation process. It highlights how early phase verification and fast prototyping can contribute to overall simulation efficiency.",
+      "ref_entries": [
+        "caoSimuNNPreRTLInference2020",
+        "choiFLASHFastParallel2020",
+        "congFPGAHLSToday2022b",
+        "coussyGAUTHighLevelSynthesis2008a",
+        "lahtiAreWeThere2019",
+        "vieiraGem5accelPreRTLSimulation2024"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 5: Innovative and Hybrid Approaches to Simulation Acceleration",
+      "beginning": "Exploring novel methodologies in RTL simulation acceleration, this section delves into hybrid approaches that combine different techniques, such as symbolic simulation, fuzz testing, and compiler-driven optimizations, to achieve significant speed improvements.",
+      "ref_entries": [
+        "liSymbolicSimulationEnhanced2021",
+        "mahapatraDFGPartitioningAlgorithms2018",
+        "pintoRTLFunctionalTest2017",
+        "xingGeneralizingTandemSimulation2022",
+        "zengAutomaticGenerationArchitectureLevel2022"
+      ],
+      "final_content": ""
+    },
+    {
+      "title": "section 6: Broader Context and Auxiliary Benefits of Accelerated RTL Simulation",
+      "beginning": "Beyond direct acceleration techniques, this section discusses the broader implications of accelerated RTL simulation, including improvements in debugging, test generation, and the auxiliary benefits such as enhanced power and energy modeling capabilities.",
+      "ref_entries": [
+        "chusovConfigurableTestEnvironment2021",
+        "hosnyCharacterizingOptimizingEDA2021",
+        "huangGeneralpurposeParallelHeterogeneous2020",
+        "liCompilerDrivenSimulationReconfigurable2022",
+        "lopez-paradisFastBehaviouralRTL2023",
+        "lopez-paradisGem5RtlFramework2021",
+        "mueller-gritschnederETISSMLMultilevelInstruction2018",
+        "sandalZeroShotRTLCode2024"
+      ],
+      "final_content": ""
+    }
+  ]
+}

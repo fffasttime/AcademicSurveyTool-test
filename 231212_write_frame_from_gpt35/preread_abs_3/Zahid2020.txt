@@ -1,0 +1,4 @@
+Title: FAT: Training Neural Networks for Reliable Inference under Hardware Faults
+Relation: The paper proposes a methodology called fault-Aware training (FAT) to make quantized neural networks (QNNs) resilient to specific fault models on the device, aiming to achieve fault tolerance for deep learning computational errors caused by hardware circuit errors, which is related to the user's literature review.
+Suggestion: This paper can be cited as an example of a novel methodology for achieving fault tolerance in deep learning hardware by injecting faults during neural network training.
+Relevance rating: 7

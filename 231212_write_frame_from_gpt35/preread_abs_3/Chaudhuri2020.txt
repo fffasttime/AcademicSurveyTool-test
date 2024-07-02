@@ -1,0 +1,4 @@
+Title: Functional Criticality Classification of Structural Faults in AI Accelerators
+Relation: This paper focuses on classifying structural faults in AI accelerators and assessing their functional criticality, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the classification and assessment of structural faults in AI accelerators and their impact on deep learning computations.
+Relevance rating: 7

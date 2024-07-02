@@ -1,0 +1,4 @@
+Title: Bit Error Tolerance of a CIFAR-10 Binarized Convolutional Neural Network Processor
+Relation: This paper explores the impact of bit errors on the performance of a hardware ConvNet processor, which is relevant to understanding hardware error fault tolerance for deep learning in edge devices.
+Suggestion: This paper can be used to discuss the impact of bit errors on the performance of hardware ConvNets and the potential energy savings through error tolerance in deep learning hardware.
+Relevance rating: 7

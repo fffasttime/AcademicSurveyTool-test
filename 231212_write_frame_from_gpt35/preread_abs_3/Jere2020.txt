@@ -1,0 +1,4 @@
+Title: A singular value perspective on model robustness
+Relation: The paper explores the generalization behavior of CNNs and its relationship with Singular Value Decomposition (SVD) of images, which is relevant to understanding the robustness of deep learning models in the context of hardware error fault tolerance.
+Suggestion: This paper can be used to discuss the relationship between model robustness and hardware error fault tolerance in deep learning, particularly in the context of understanding the generalization behavior of CNNs.
+Relevance rating: 7

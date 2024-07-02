@@ -1,0 +1,4 @@
+Title: SHIELDeNN: Online accelerated framework for fault-tolerant deep neural network architectures
+Relation: The paper proposes SHIELDeNN, an error-resilient neural network framework, which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss a specific fault-tolerant framework for deep neural network architectures in the literature review.
+Relevance rating: 7

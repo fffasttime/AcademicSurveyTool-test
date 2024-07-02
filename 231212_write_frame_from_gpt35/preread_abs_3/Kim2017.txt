@@ -1,0 +1,4 @@
+Title: MATIC: Learning around errors for efficient low-voltage neural network accelerators
+Relation: The paper proposes a methodology for improving the energy-efficiency of DNN accelerators by enabling aggressive voltage scaling and error resilience, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the potential methods for improving hardware fault tolerance in deep learning accelerators through voltage scaling and error resilience.
+Relevance rating: 7

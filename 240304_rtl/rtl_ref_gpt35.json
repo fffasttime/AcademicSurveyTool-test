@@ -1,0 +1,1143 @@
+{
+  "amidChipyardIntegratedDesign2020": {
+    "base": {
+      "article_type": "article",
+      "title": "hipyard: {{Integrated Design}}, {{Simulation}}, and {{Implementation Framework}} for {{Custom SoCs}",
+      "authors": [
+        "Amid, Alon",
+        "Biancolin, David",
+        "Gonzalez, Abraham",
+        "Grubb, Daniel",
+        "Karandikar, Sagar",
+        "Liew, Harrison",
+        "Magyar, Albert",
+        "Mao, Howard",
+        "Ou, Albert",
+        "Pemberton, Nathan",
+        "Rigge, Paul",
+        "Schmidt, Colin",
+        "Wright, John",
+        "Zhao, Jerry",
+        "Shao, Yakun Sophia",
+        "Asanovic, Krste",
+        "Nikolic, Borivoje"
+      ],
+      "abstract": "Continued improvement in computing efficiency requires functional specialization of hardware designs. Agile hardware design methodologies have been proposed to alleviate the increased design costs of custom silicon architectures, but their practice thus far has been accompanied with challenges in integration and validation of complex systems-on-a-chip. We present the Chipyard framework, an integrated SoC design, simulation, and implementation environment for specialized compute systems. Chipyard includes configurable, composable, open-source, generator-based IP blocks that can be used across multiple stages of the hardware development flow while maintaining design intent and integration consistency. Through cloud-hosted FPGA-accelerated simulation and rapid ASIC implementation, Chipyard enables continuous validation of physically realizable customized systems.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/MM.2020.2996616"
+    },
+    "suggestion": {
+      "relation": "The paper presents the Chipyard framework, an integrated SoC design, simulation, and implementation environment for specialized compute systems, which includes cloud-hosted FPGA-accelerated simulation, aligning with the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be used to discuss the integrated design and simulation environment for specialized compute systems, highlighting the use of cloud-hosted FPGA-accelerated simulation.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "beamerCaseAcceleratingSoftware2020": {
+    "base": {
+      "article_type": "article",
+      "title": " {{Case}} for {{Accelerating Software RTL Simulation}",
+      "authors": [
+        "Beamer, Scott"
+      ],
+      "abstract": "RTL simulation is a critical tool for hardware design but its current slow speed often bottlenecks the whole design process. Simulation speed becomes even more crucial for agile and open-source hardware design methodologies, because the designers not only want to iterate on designs quicker, but they may also have less resources with which to simulate them. In this article, we execute multiple simulators and analyze them with hardware performance counters. We find some open-source simulators not only outperform a leading commercial simulator, they also achieve comparable or higher instruction throughput on the host processor. Although advanced optimizations may increase the complexity of the simulator, they do not significantly hinder instruction throughput. Our findings make the case that there is significant room to accelerate software simulation and open-source simulators are a great starting point for researchers.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/MM.2020.2997639"
+    },
+    "suggestion": {
+      "relation": "The paper discusses the need to accelerate software RTL simulation, particularly in the context of agile and open-source hardware design methodologies, and presents findings on open-source simulators outperforming commercial ones, aligning with the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be cited to emphasize the importance of accelerating software RTL simulation, especially in agile and open-source hardware design methodologies, and the potential of open-source simulators.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "beamerEfficientlyExploitingLow2020b": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "fficiently {{Exploiting Low Activity Factors}} to {{Accelerate RTL Simulation}",
+      "authors": [
+        "Beamer, Scott",
+        "Donofrio, David"
+      ],
+      "abstract": "Hardware simulation is a critical tool for design, but its slow speed often bottlenecks the entire design process. Although most signals in a digital design rarely change, most leading simulators still simulate the entirety of the design every cycle. Tracking which signals are unchanged and can thus be reused typically introduces too much overhead to deliver a practical speedup.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/DAC18072.2020.9218632"
+    },
+    "suggestion": {
+      "relation": "The paper addresses the slow speed of hardware simulation and the challenges in tracking unchanged signals to deliver a practical speedup, which is related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be used to discuss the challenges in accelerating RTL simulation by addressing the slow speed and the difficulties in tracking unchanged signals.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "beamerESSENTHighPerformanceRTL": {
+    "base": {
+      "article_type": "article",
+      "title": "{ESSENT}}: {{A High-Performance RTL Simulator}",
+      "authors": [
+        "Beamer, Scott",
+        "Nijssen, Thomas",
+        "Pandian, Krishna",
+        "Zhang, Kyle"
+      ],
+      "abstract": "RTL simulation is a critical tool for hardware development, debugging, design space exploration, and verification. The slow speed of hardware simulation can often be a bottleneck for the design process, so any speed improvements could either reduce design times or improve design quality. We overview ESSENT, a high-performance RTL simulator available as opensource. Not only does it contain novel optimizations that make it typically faster than other software RTL simulators, the codebase can serve as a foundation for simulation research.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "The paper introduces ESSENT, a high-performance RTL simulator with novel optimizations, aligning with the user's topic of RTL simulation acceleration and the need for speed improvements in hardware simulation.",
+      "suggestion": "This paper can be cited to discuss the features and optimizations of ESSENT, highlighting its potential for improving RTL simulation speed.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "biancolinFASEDFPGAAcceleratedSimulation2019": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{FASED}}: {{FPGA-Accelerated Simulation}} and {{Evaluation}} of {{DRAM}",
+      "authors": [
+        "Biancolin, David",
+        "Karandikar, Sagar",
+        "Kim, Donggyu",
+        "Koenig, Jack",
+        "Waterman, Andrew",
+        "Bachrach, Jonathan",
+        "Asanovic, Krste"
+      ],
+      "abstract": "Recent work in FPGA-accelerated simulation of ASICs has shown that much of a simulator can be automatically generated from ASIC RTL. Alas, these works rely on simple models of the outer cache hierarchy and DRAM, as mapping ASIC RTL for these components into an FPGA fabric is too complex and resource intensive. To improve FPGA simulation model accuracy, we present fased, a parameterized generator of composable, high-fidelity, FPGA-hosted last-level-cache and DRAM models. fased instances are highly performant, yet they maintain timing faithfulness independently of the behavior of the host-FPGA memory system. For a given scheduling policy, a single fased instance can model nearly the entire space of realizable single-channel DDR3 memory organizations, without resynthesizing the simulator RTL. We demonstrate fased by integrating it into a flow that automatically transforms RTL for multicore RISC-V processors into full-system simulators that execute at up to 150 target MHz on cloud-hosted FPGAs.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3289602.3293894"
+    },
+    "suggestion": {
+      "relation": "The paper presents fased, a parameterized generator of high-fidelity, FPGA-hosted last-level-cache and DRAM models for FPGA-accelerated simulation, which is relevant to the user's topic of RTL simulation acceleration and the use of FPGA acceleration.",
+      "suggestion": "This paper can be used to discuss the use of fased for FPGA-accelerated simulation and its contribution to improving simulation model accuracy.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "boglioloRobustRTLPower1998": {
+    "base": {
+      "article_type": "article",
+      "title": "obust {{RTL}} Power Macromodel",
+      "authors": [
+        "Bogliolo, A.",
+        "Benini, L."
+      ],
+      "abstract": "In this paper, we propose a robust register-transfer level (RTL) power modeling methodology for functional units. Our models are consistently accurate over a wide range of input statistics, they are automatically constructed and can provide pattern-by-pattern power estimates. An additional desirable feature of our modeling methodology is the capability of accounting for the impact of technology variations, library changes and synthesis tools. Our methodology is based on the concept of node sampling, as opposed to more traditional approaches based on input sampling.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/92.736131"
+    },
+    "suggestion": {
+      "relation": "The paper proposes a robust RTL power modeling methodology, which is not directly related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper may not be directly relevant to the user's literature review on RTL simulation acceleration.",
+      "rating": 3
+    },
+    "sections": null
+  },
+  "bombieriFASTGPRTLFunctional2012": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{FAST-GP}}: {{An RTL}} Functional Verification Framework Based on Fault Simulation on {{GP-GPUs}",
+      "authors": [
+        "Bombieri, N.",
+        "Fummi, F.",
+        "Guarnieri, V."
+      ],
+      "abstract": "This paper presents FAST-GP, a framework for functional verification of RTL designs, which is based on fault injection and parallel simulation on GP-GPUs. Given a fault model, the framework translates the RTL code into an injected C code targeting NVIDIA GPUs, thus allowing a very fast parallel automatic test pattern generation and fault simulation. The paper compares different configurations of the framework to better exploit the architectural characteristics of such GPGPUs (such as thread synchronization, branch divergence, etc.) by considering the architectural characteristics of the RTL design under verification (i.e., complexity, size, number of injected faults, etc.). Experimental results have been conducted by applying the framework to different designs, in order to prove the methodology effectiveness.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/DATE.2012.6176532"
+    },
+    "suggestion": {
+      "relation": "The paper presents FAST-GP, a framework for functional verification of RTL designs based on fault simulation on GP-GPUs, which is not directly related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper may not be directly relevant to the user's literature review on RTL simulation acceleration.",
+      "rating": 3
+    },
+    "sections": null
+  },
+  "bombieriFASTRTLFault2012": {
+    "base": {
+      "article_type": "article",
+      "title": "{FAST}}: {{An RTL Fault Simulation Framework}} Based on {{RTL-to-TLM Abstraction}",
+      "authors": [
+        "Bombieri, Nicola",
+        "Fummi, Franco",
+        "Guarnieri, Valerio"
+      ],
+      "abstract": "Functional verification techniques based on fault injection and simulation at register-transfer level (RTL) have been largely investigated in the past years. Although they have various advantages such as scalability and simplicity, they commonly suffer from the low speed of the cycle-accurate RTL simulation. On the other hand, Transaction-level modeling (TLM) allows a simulation speed sensibly faster than RTL. This article presents FAST, a framework to accelerate RTL fault simulation through automatic RTL-to-TLM abstraction. FAST abstracts RTL models injected with any RTL fault model into equivalent injected TLM models thus allowing a very fast fault simulation at TLM level. The article also presents FAST-DT, a new bit-accurate data type library integrated in the framework that allows a further improvement of the simulation speed-up. Finally, the article shows how the generated TLM test patterns can be automatically synthesized into RTL test patterns by exploiting the structural information of the RTL model extracted during the abstraction process. Experimental results have been performed on several designs of different size and complexity to show the methodology effectiveness.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1007/s10836-012-5318-z"
+    },
+    "suggestion": {
+      "relation": "The paper introduces FAST, a framework to accelerate RTL fault simulation through automatic RTL-to-TLM abstraction, aligning with the user's topic of RTL simulation acceleration and the need for faster fault simulation.",
+      "suggestion": "This paper can be cited to discuss the use of FAST for accelerating RTL fault simulation through RTL-to-TLM abstraction, emphasizing the improvement in simulation speed.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "caoSimuNNPreRTLInference2020": {
+    "base": {
+      "article_type": "article",
+      "title": "{SimuNN}}: {{A Pre-RTL Inference}}, {{Simulation}} and {{Evaluation Framework}} for {{Neural Networks}",
+      "authors": [
+        "Cao, Shan",
+        "Deng, Wei",
+        "Bao, Zhenyi",
+        "Xue, Chengbo",
+        "Xu, Shugong",
+        "Zhang, Shunqing"
+      ],
+      "abstract": "Neural networks have been widely deployed in a number of applications due to their strong learning and feature extraction ability. To meet the ever increasing accuracy requirements from various applications, neural network models have become more complicated and diversified by exploiting more layers, larger model size, and more diverse functions. As a result, the design of application specified hardware accelerators for neural networks is also becoming more difficult, especially for real-time embedded applications. To efficiently bridge the gap between algorithm and hardware design phases, a pre-RTL neural network simulator (SimuNN) is proposed in this paper to enable early phase verification and fast prototyping. SimuNN can be used for inference, simulation and also evaluation, results of which can guide the design of both neural network models and hardware accelerators. SimuNN supports inference in various data precision, and is compatible with TensorFlow, which makes it easy for platform migration. It provides multi-level trace results that can be taken as the gold model of RTL designs. Moreover, the hardware performance under various quantizations, dataflow organizations and hardware configurations can be evaluated by SimuNN based on a generalized hardware model. Based on that, two dataflow organization schemes are concluded for determining the optimal configurations of hardware architecture under various hardware and performance constraints.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/JETCAS.2020.2993854"
+    },
+    "suggestion": {
+      "relation": "This paper introduces SimuNN, a pre-RTL neural network simulator for early phase verification and fast prototyping, which supports inference, simulation, and evaluation, guiding the design of neural network models and hardware accelerators.",
+      "suggestion": "Use this paper to discuss the importance of pre-RTL simulation in accelerating the design of hardware accelerators for neural networks.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "choiFLASHFastParallel2020": {
+    "base": {
+      "article_type": "article",
+      "title": "{FLASH}}: {{Fast}}, {{Parallel}}, and {{Accurate Simulator}} for {{HLS}",
+      "authors": [
+        "Choi, Young-Kyu",
+        "Chi, Yuze",
+        "Wang, Jie",
+        "Cong, Jason"
+      ],
+      "abstract": "A large semantic gap between a high-level synthesis (HLS) design and a low-level RTL simulation environment often creates a barrier for those who are not FPGA experts. Moreover, such a low-level simulation takes a long time to complete. Software HLS simulators can help bridge this gap and accelerate the simulation process; but their shortcoming is that they do not provide performance estimation. To make matters worse, we found that the current FPGA HLS commercial software simulators sometimes produce incorrect results. In order to solve these performance estimation and correctness problems while maintaining the high speed of software simulators, this paper proposes a new HLS simulation flow named FLASH. The main idea behind the proposed flow is to extract scheduling information from the HLS tool and automatically construct an equivalent cycle-accurate simulation model while preserving C semantics. Experimental results show that FLASH runs three orders of magnitude faster than the RTL simulation.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/TCAD.2020.2970597"
+    },
+    "suggestion": {
+      "relation": "FLASH proposes a new HLS simulation flow to bridge the semantic gap between HLS design and low-level RTL simulation, providing performance estimation and correctness while maintaining high simulation speed.",
+      "suggestion": "Discuss the challenges of semantic gap between HLS design and RTL simulation and how FLASH addresses these challenges.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "chusovConfigurableTestEnvironment2021": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "onfigurable {{Test Environment}} for {{RTL Simulation}} and {{Performance Evaluation}} of {{Network}} on {{Chip}} as {{Part}} of {{SoC}",
+      "authors": [
+        "Chusov, Sergey A.",
+        "Primakov, Evgeniy V.",
+        "Savchenko, Yuri V.",
+        "Pereverzev, Alexey L.",
+        "Barkov, Evgeniy S."
+      ],
+      "abstract": "Nowadays, the System on Chip (SoC) industry is rapidly developing. One of the objectives of SoC developers is to provide the most efficient communication between computational units. One of the possible solutions is using Networks on Chip (NoC) of various topologies with different routing algorithms. In this paper, a configurable test environment designed for cycleaccurate NoC simulation as part of a SoC, used to provide statistics about network behavior during test process, is presented. The environment is designed to evaluate NoC performance as part of a specific SoC at the development stage, when there is a full or partial RTL description of the system. The environment configuration options, its application area, general scheme and calculated NoC performance characteristics are considered. As a conclusion, an example of using the environment to evaluate the performance of a specific NoC is described in detail.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ElConRus51938.2021.9396634"
+    },
+    "suggestion": {
+      "relation": "This paper presents a configurable test environment for cycle-accurate NoC simulation as part of a SoC, used to evaluate NoC performance as part of a specific SoC at the development stage, with full or partial RTL description of the system.",
+      "suggestion": "Use this paper to discuss the importance of performance evaluation at the RTL level for SoC development.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "congFPGAHLSToday2022b": {
+    "base": {
+      "article_type": "article",
+      "title": "{FPGA HLS Today}}: {{Successes}}, {{Challenges}}, and {{Opportunities}",
+      "authors": [
+        "Cong, Jason",
+        "Lau, Jason",
+        "Liu, Gai",
+        "Neuendorffer, Stephen",
+        "Pan, Peichen",
+        "Vissers, Kees",
+        "Zhang, Zhiru"
+      ],
+      "abstract": "The year 2011 marked an important transition for FPGA high-level synthesis (HLS), as it went from prototyping to deployment. A decade later, in this article, we assess the progress of the deployment of HLS technology and highlight the successes in several application domains, including deep learning, video transcoding, graph processing, and genome sequencing. We also discuss the challenges faced by today\u2019s HLS technology and the opportunities for further research and development, especially in the areas of achieving high clock frequency, coping with complex pragmas and system integration, legacy code transformation, building on open source HLS infrastructures, supporting domain-specific languages, and standardization. It is our hope that this article will inspire more research on FPGA HLS and bring it to a new height.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3530775"
+    },
+    "suggestion": {
+      "relation": "This article assesses the progress of FPGA HLS technology deployment, highlighting successes in various application domains, and discussing the challenges and opportunities for further research and development in FPGA HLS.",
+      "suggestion": "Use this paper to provide an overview of the successes, challenges, and opportunities in FPGA HLS technology deployment.",
+      "rating": 5
+    },
+    "sections": null
+  },
+  "cornoSimulationbasedSequentialEquivalence1999": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "imulation-Based Sequential Equivalence Checking of {{RTL VHDL}",
+      "authors": [
+        "Corno, F.",
+        "Reorda, M.S.",
+        "Squillero, G."
+      ],
+      "abstract": "This paper preserits a riovel oppraoch to eqiiivnleiice verificatioii of R T - h v e l descriptions. The propo,sed nppmach sacrifices exactiiess i n ,favor of applicability: it is /lot always able to produce 011 oizsweI; birr it is oble f a check seqiieutial eyuivalerrce of Inr-jie .systerizs. Ftirtherntore, being based 011 corimiercicil VHDL tools, if does not have arbitrary liriiitariori,s br the syntax of the descriptions.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ICECS.1999.812295"
+    },
+    "suggestion": {
+      "relation": "The paper presents a novel approach to equivalence verification of RTL VHDL descriptions, sacrificing exactness for applicability, and being based on commercial VHDL tools.",
+      "suggestion": "Discuss the challenges of equivalence verification at the RTL level and the trade-offs between exactness and applicability.",
+      "rating": 3
+    },
+    "sections": null
+  },
+  "coussyGAUTHighLevelSynthesis2008a": {
+    "base": {
+      "article_type": "incollection",
+      "title": "{GAUT}}: {{A High-Level Synthesis Tool}} for {{DSP Applications}}: {{From C Algorithm}} to {{RTL Architecture}",
+      "authors": [
+        "Coussy, Philippe",
+        "Chavet, Cyrille",
+        "Bomel, Pierre",
+        "Heller, Dominique",
+        "Senn, Eric",
+        "Martin, Eric"
+      ],
+      "abstract": "This chapter presents GAUT, an academic and open-source high-level synthesis tool dedicated to digital signal processing applications. Starting from an algorithmic bit-accurate specification written in C/C++, GAUT extracts the potential parallelism before processing the allocation, the scheduling and the binding tasks. Mandatory synthesis constraints are the throughput and the clock period while the memory mapping and the I/O timing diagram are optional. GAUT next generates a potentially pipelined architecture composed of a processing unit, a memory unit and a communication with a GALS/LIS interface.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1007/978-1-4020-8588-8_9"
+    },
+    "suggestion": {
+      "relation": "GAUT is a high-level synthesis tool for DSP applications, extracting parallelism from C/C++ algorithmic specifications and generating a potentially pipelined architecture, with constraints on throughput and clock period.",
+      "suggestion": "Use this paper to discuss the potential of high-level synthesis tools in accelerating RTL simulation for DSP applications.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "elsabbaghAcceleratingRTLSimulation2023": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "ccelerating {{RTL Simulation}} with {{Hardware-Software Co-Design}",
+      "authors": [
+        "Elsabbagh, Fares",
+        "Sheikhha, Shabnam",
+        "Ying, Victor A.",
+        "Nguyen, Quan M.",
+        "Emer, Joel S",
+        "Sanchez, Daniel"
+      ],
+      "abstract": "Fast simulation of digital circuits is crucial to build modern chips. But RTL (Register-Transfer-Level) simulators are slow, as they cannot exploit multicores well. Slow simulation lengthens chip design time and makes bugs more frequent. We present ASH, a parallel architecture tailored to simulation workloads. ASH consists of a tightly codesigned hardware architecture and compiler for RTL simulation. ASH exploits two key opportunities. First, it performs dataflow execution of small tasks to leverage the fine-grained parallelism in simulation workloads. Second, it performs selective event-driven execution to run only the fraction of the design exercised each cycle, skipping ineffectual tasks. ASH hardware provides a novel combination of dataflow and speculative execution, and ASH\u2019s compiler features several novel techniques to automatically leverage this hardware.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3613424.3614257"
+    },
+    "suggestion": {
+      "relation": "ASH presents a parallel architecture tailored to RTL simulation workloads, exploiting fine-grained parallelism and selective event-driven execution to improve simulation speed.",
+      "suggestion": "Use this paper to discuss the importance of parallel architectures in accelerating RTL simulation.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "emamiManticoreHardwareAcceleratedRTL2023": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "anticore: {{Hardware-Accelerated RTL Simulation}} with {{Static Bulk-Synchronous Parallelism}",
+      "authors": [
+        "Emami, Mahyar",
+        "Kashani, Sahand",
+        "Kamahori, Keisuke",
+        "Pourghannad, Mohammad Sepehr",
+        "Raj, Ritik",
+        "Larus, James R."
+      ],
+      "abstract": "The demise of Moore\u2019s Law and Dennard Scaling has revived interest in specialized computer architectures and accelerators. Verification and testing of this hardware depend heavily upon cycleaccurate simulation of register-transfer-level (RTL) designs. The fastest software RTL simulators can simulate designs at 1\u20131000 kHz, i.e., more than three orders of magnitude slower than hardware. Improved simulators can increase designers\u2019 productivity by speeding design iterations and permitting more exhaustive exploration. One possibility is to exploit low-level parallelism, as RTL expresses considerable fine-grain concurrency. Unfortunately, stateof-the-art RTL simulators often perform best on a single core since modern processors cannot effectively exploit fine-grain parallelism. This work presents Manticore: a parallel computer designed to accelerate RTL simulation. Manticore uses a static bulk-synchronous parallel (BSP) execution model to eliminate fine-grain synchronization overhead. It relies entirely on a compiler to schedule resources and communication, which is feasible since RTL code contains few divergent execution paths. With static scheduling, communication and synchronization no longer incur runtime overhead, making fine-grain parallelism practical. Moreover, static scheduling dramatically simplifies processor implementation, significantly increasing the number of cores that fit on a chip. Our 225-core FPGA implementation running at 475 MHz outperforms a state-of-the-art RTL simulator running on desktop and server computers in 8 out of 9 benchmarks.",
+      "publication_year": "",
+      "keywords": "Computer Science - Hardware Architecture",
+      "doi": "10.1145/3623278.3624750"
+    },
+    "suggestion": {
+      "relation": "Manticore presents a parallel computer designed to accelerate RTL simulation, using a static bulk-synchronous parallel (BSP) execution model to eliminate fine-grain synchronization overhead and improve simulation speed.",
+      "suggestion": "Use this paper to discuss the potential of static bulk-synchronous parallelism in accelerating RTL simulation.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "hoeferSiFIAIFastFlexible2023a": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{SiFI-AI}}: {{A Fast}} and {{Flexible RTL Fault Simulation Framework Tailored}} for {{AI Models}} and {{Accelerators}",
+      "authors": [
+        "Hoefer, Julian",
+        "Kempf, Fabian",
+        "Hotfilter, Tim",
+        "Kre\u00df, Fabian",
+        "Harbaum, Tanja",
+        "Becker, J\u00fcrgen"
+      ],
+      "abstract": "For AI-based systems in safety-critical domains, it is inevitable to understand the impact of random hardware faults affecting the target hardware accelerators. The high degree of data reuse makes Deep Neural Network (DNN) accelerators susceptible to significant fault propagation and hence hazardous predictions. Therefore, we present SiFI-AI, a simulation framework for fault injection in DNN accelerators. SiFI-AI proposes a hybrid simulation approach combining fast AI inference with cycle-accurate RTL simulation. Time-expensive RTL simulation is only used to accurately target registers in the hardware through condition-based fault injection. This enables to reveal vulnerable DNN layers and the related fault origin. In a resilience study with 1.5 M fault injection experiments, we analyze representative DNNs and a state-of-the-art DNN accelerator to identify vulnerable layers. The study only takes 1.15 days which is 7x faster than state-of-the-art. Our experiments show the high impact of control register faults and that narrow and deep layers are 10x more resilient compared to the wide and shallow layers of a DNN.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3583781.3590226"
+    },
+    "suggestion": {
+      "relation": "The paper introduces SiFI-AI, a simulation framework for fault injection in DNN accelerators, which combines fast AI inference with cycle-accurate RTL simulation to reveal vulnerable DNN layers and related fault origin, aligning with the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper provides insights into the combination of fast AI inference with cycle-accurate RTL simulation for fault injection in DNN accelerators, which can be cited as an example of accelerating RTL simulation in AI-based systems.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "hosnyCharacterizingOptimizingEDA2021": {
+    "base": {
+      "article_type": "online",
+      "title": "haracterizing and {{Optimizing EDA Flows}} for the {{Cloud}",
+      "authors": [
+        "Hosny, Abdelrahman",
+        "Reda, Sherief"
+      ],
+      "abstract": "Cloud computing accelerates design space exploration in logic synthesis, and parameter tuning in physical design. However, deploying EDA jobs on the cloud requires EDA teams to deeply understand the characteristics of their jobs in cloud environments. Unfortunately, there has been little to no public information on these characteristics. Thus, in this paper, we formulate the problem of migrating EDA jobs to the cloud. First, we characterize the performance of four main EDA applications, namely: synthesis, placement, routing and static timing analysis. We show that different EDA jobs require different machine configurations. Second, using observations from our characterization, we propose a novel model based on Graph Convolutional Networks to predict the total runtime of a given application on different machine configurations. Our model achieves a prediction accuracy of 87\\%. Third, we develop a new formulation for optimizing cloud deployments in order to reduce deployment costs while meeting deadline constraints. We present a pseudo-polynomial optimal solution using a multichoice knapsack mapping that reduces costs by 35.29\\%.",
+      "publication_year": "",
+      "keywords": "Computer Science - Artificial Intelligence,Computer Science - Distributed Parallel and Cluster Computing",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "This paper characterizes and optimizes EDA flows for cloud computing, addressing the performance of EDA applications and proposing a model for predicting total runtime on different machine configurations, which is relevant to the user's topic of accelerating EDA flows in the cloud.",
+      "suggestion": "The characterization and optimization of EDA flows for cloud computing in this paper can be cited to demonstrate the importance of understanding job characteristics and optimizing cloud deployments in the context of RTL simulation acceleration.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "huangGeneralpurposeParallelHeterogeneous2020": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": " General-Purpose Parallel and Heterogeneous Task Programming System for {{VLSI CAD}",
+      "authors": [
+        "Huang, Tsung-Wei"
+      ],
+      "abstract": "This paper introduces Task ow to address the critical question of \u201cHow can we make it easier to implement and deploy parallel computer-aided design (CAD) algorithms on large heterogeneous nodes with high performance and simultaneous high productivity?\u201d Parallelizing CAD is an extremely challenging job. Modern CAD applications exhibit unique computational patterns and user requirements that need very strategic decomposition to bene t from parallelism. Task ow assists researchers and developers in the implementation complexity of parallel algorithms by introducing a new high-level programming model supported by an e cient runtime. By capitalizing on emerging parallelism comprising manycore central processing units (CPUs), graphics processing units (GPUs), and custom accelerators, Task ow enables CAD to achieve new performance and productivity milestones that were previously out of reach.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3400302.3415750"
+    },
+    "suggestion": {
+      "relation": "The paper introduces Taskflow, a system for implementing and deploying parallel CAD algorithms on large heterogeneous nodes, aiming to achieve high performance and productivity, which is related to the user's topic of accelerating RTL simulation in VLSI CAD.",
+      "suggestion": "This paper can be cited to illustrate the challenges of parallelizing CAD and the use of Taskflow to achieve high performance and productivity in the context of RTL simulation acceleration for VLSI CAD.",
+      "rating": 5
+    },
+    "sections": null
+  },
+  "kimDebuggingRISCVProcessors": {
+    "base": {
+      "article_type": "article",
+      "title": "ebugging {{RISC-V Processors}} with {{FPGA-Accelerated RTL Simulation}} in the {{FPGA Cloud}",
+      "authors": [
+        "Kim, Donggyu",
+        "Celio, Christopher",
+        "Karandikar, Sagar",
+        "Biancolin, David",
+        "Bachrach, Jonathan",
+        "Asanovic, Krste"
+      ],
+      "abstract": "We present DESSERT, an FPGA-accelerated methodology for simulation-based RTL verification. The RTL design is automatically transformed and instrumented to allow deterministic simulation on the FPGA with initialization and state snapshot capture. Assert statements, which are present in RTL for error checking in software simulation, are automatically synthesized for quick hardware-based error checking. Print statements in the RTL design are also automatically transformed to generate logs from the FPGA, which are compared on the fly against a functional golden-model software simulator for more exhaustive error checking. To rapidly provide waveforms for debugging, two parallel deterministic FPGAaccelerated RTL simulations are run spaced apart in simulation time to support capture and replay of state snapshots immediately before an error. We demonstrate DESSERT with the public FPGA cloud services by catching bugs in a complex out-of-order processor hundreds of billions of cycles into SPEC2006int benchmarks running under Linux.",
+      "publication_year": "",
+      "keywords": "\u26d4 No DOI found",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "The paper presents DESSERT, an FPGA-accelerated methodology for simulation-based RTL verification, which automatically transforms and instruments the RTL design for deterministic simulation on the FPGA, aligning with the user's topic of accelerating RTL simulation using FPGA.",
+      "suggestion": "This paper can be cited as an example of FPGA-accelerated RTL simulation methodology, showcasing the transformation and instrumentation of RTL design for deterministic simulation on the FPGA.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "kimDESSERTDebuggingRTL2018": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{DESSERT}}: {{Debugging RTL Effectively}} with {{State Snapshotting}} for {{Error Replays}} across {{Trillions}} of {{Cycles}",
+      "authors": [
+        "Kim, Donggyu",
+        "Celio, Christopher",
+        "Karandikar, Sagar",
+        "Biancolin, David",
+        "Bachrach, Jonathan",
+        "Asanovic, Krste"
+      ],
+      "abstract": "We present DESSERT, an FPGA-accelerated methodology for simulation-based RTL verification. The RTL design is automatically transformed and instrumented to allow deterministic simulation on the FPGA with initialization and state snapshot capture. Assert statements, which are present in RTL for error checking in software simulation, are automatically synthesized for quick hardware-based error checking. Print statements in the RTL design are also automatically transformed to generate logs from the FPGA, which are compared on the fly against a functional golden-model software simulator for more exhaustive error checking. To rapidly provide waveforms for debugging, two parallel deterministic FPGA-accelerated RTL simulations are run spaced apart in simulation time to support capture and replay of state snapshots immediately before an error. We demonstrate DESSERT, running on public-cloud FPGAs at extremely low cost, by catching bugs in a complex out-of-order processor hundreds of billions of cycles into SPEC2006int benchmarks running under Linux.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/FPL.2018.00021"
+    },
+    "suggestion": {
+      "relation": "This paper also presents DESSERT, an FPGA-accelerated methodology for simulation-based RTL verification, demonstrating the automatic transformation and instrumentation of RTL design for deterministic simulation on the FPGA, which is relevant to the user's topic of accelerating RTL simulation using FPGA.",
+      "suggestion": "The automatic transformation and instrumentation of RTL design for deterministic simulation on the FPGA in this paper can be cited as an example of FPGA-accelerated RTL simulation methodology for error replays.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "kimEvaluationRISCVRTL": {
+    "base": {
+      "article_type": "article",
+      "title": "valuation of {{RISC-V RTL}} with {{FPGA-Accelerated Simulation}",
+      "authors": [
+        "Kim, Donggyu",
+        "Celio, Christopher",
+        "Biancolin, David",
+        "Bachrach, Jonathan",
+        "Asanovic, Krste"
+      ],
+      "abstract": "This paper presents a fast and accurate simulation methodology for performance, power, and energy evaluation in the hardware/software co-design flow. Cycle-level microarchitectural software simulation is the bottleneck of the hardware/software co-design cycle due to its slow speed and the difficulty of simulator validation. While sampling methodologies can ameliorate some of these challenges, we show that it is often insufficient for rigorous design evaluations. To circumvent the limitations of software simulation and sampling, we employ MIDAS, which automatically generates FPGA-accelerated simulators from RTL. These simulators are not only up to three orders-of-magnitude faster than existing microarchitectural software simulators, but also truly cycle-accurate, as the same RTL is used to build the silicon implementation. MIDAS builds on the work of Strober, namely by increasing simulator execution rate (up to tenfold) and by including an abstract L2 cache model to simulate more realistic systems without the corresponding RTL implementations. We simulated the productized, in-order processor, Rocket, and the industry-competitive, out-of-order processor, BOOM. To our knowledge, this is the first paper to present performance, power, and energy evaluations from RTL simulations running the whole SPEC2006int benchmark suite with its reference inputs.",
+      "publication_year": "",
+      "keywords": "\u26d4 No DOI found",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "The paper presents MIDAS, a methodology for performance, power, and energy evaluation in the hardware/software co-design flow, which automatically generates FPGA-accelerated simulators from RTL, aligning with the user's topic of accelerating RTL simulation for evaluation in hardware/software co-design.",
+      "suggestion": "This paper provides insights into the use of MIDAS for fast and accurate simulation from RTL, making it suitable for citation as an example of FPGA-accelerated simulation for performance, power, and energy evaluation.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "kimSimmaniRuntimePower2019": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "immani: {{Runtime Power Modeling}} for {{Arbitrary RTL}} with {{Automatic Signal Selection}",
+      "authors": [
+        "Kim, Donggyu",
+        "Zhao, Jerry",
+        "Bachrach, Jonathan",
+        "Asanovi\u0107, Krste"
+      ],
+      "abstract": "This paper presents a novel runtime power modeling methodology which automatically identifies key signals for power dissipation of any RTL design. The toggle-pattern matrix is constructed with the VCD dumps from a training set, where each signal is represented as a high-dimensional point. By clustering signals showing similar switching activities, a small number of signals are automatically selected, and then the design-specific but workload-independent activity-based power model is constructed using regression against cycle-accurate power traces obtained from industry-standard CAD tools. We can also automatically instrument an FPGA-accelerated RTL simulation with runtime activity counters to obtain power traces of realistic workloads at speed. Our methodology is demonstrated with a heterogeneous processor composed of an in-order core and a custom vector accelerator, running not only microbenchmarks but also real-world machine-learning applications.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3352460.3358322"
+    },
+    "suggestion": {
+      "relation": "The paper introduces immani, a runtime power modeling methodology that automatically identifies key signals for power dissipation of any RTL design and demonstrates the automatic instrumentation of an FPGA-accelerated RTL simulation with runtime activity counters, aligning with the user's topic of accelerating RTL simulation for power modeling.",
+      "suggestion": "This paper can be cited as an example of a methodology for automatic identification of key signals for power dissipation and automatic instrumentation of FPGA-accelerated RTL simulation for runtime power modeling.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "kimStroberFastAccurate2016": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "trober: {{Fast}} and {{Accurate Sample-Based Energy Simulation}} for {{Arbitrary RTL}",
+      "authors": [
+        "Kim, Donggyu",
+        "Izraelevitz, Adam",
+        "Celio, Christopher",
+        "Kim, Hokeun",
+        "Zimmer, Brian",
+        "Lee, Yunsup",
+        "Bachrach, Jonathan",
+        "Asanovicc, Krste"
+      ],
+      "abstract": "This paper presents a sample-based energy simulation methodology that enables fast and accurate estimations of performance and average power for arbitrary RTL designs. Our approach uses an FPGA to simultaneously simulate the performance of an RTL design and to collect samples containing exact RTL state snapshots. Each snapshot is then replayed in gate-level simulation, resulting in a workload-specific average power estimate with confidence intervals. For arbitrary RTL and workloads, our methodology guarantees a minimum of fourorders-of-magnitude speedup over commercial CAD gate-level simulation tools and gives average energy estimates guaranteed to be within 5\\% of the true average energy with 99\\% confidence. We believe our open-source sample-based energy simulation tool Strober can not only rapidly provide ground truth for more abstract power models, but can enable productive design-space exploration early in the RTL design process.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ISCA.2016.21"
+    },
+    "suggestion": {
+      "relation": "The paper presents Strober, a sample-based energy simulation methodology for fast and accurate estimations of performance and average power for arbitrary RTL designs using an FPGA, which is related to the user's topic of accelerating RTL simulation for energy estimation.",
+      "suggestion": "This paper can be cited as an example of a sample-based energy simulation methodology using an FPGA for fast and accurate estimations of performance and average power in the context of RTL simulation acceleration.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "kolbiSymbolicRTLSimulation": {
+    "base": {
+      "article_type": "article",
+      "title": "ymbolic {{RTL}} Simulatio",
+      "authors": [
+        "Kolbi, A",
+        "Kukula, J",
+        "Damiano, R"
+      ],
+      "abstract": "Symbolic simulation is a promising formal verification technique combining the flexibility of conventional simulation with powerful symbolic methods. Unfortunately, existing symbolic simulators are restricted to gate level simulation or handle just a synthesizable subset of an HDL. Simulation of systems composed of design, testbench and correctness checkers, however, requires the complete set of HDL constructs. We present an approach that enables symbolic simulation of the complete set of RT-level Verilog constructs with full delay support. Additionally, we propose a flexible scheme for introducing symbolic variables and demonstrate how error traces can be simulated with this new scheme. Finally, we present some experimental results on an 8051 micro-controller design which prove the effectiveness of our approach.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "This paper presents an approach for symbolic simulation of the complete set of RT-level Verilog constructs with full delay support, which is directly related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be used to discuss the advancements in symbolic simulation techniques for RTL simulation acceleration.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "laeuferRFUZZCoveragedirectedFuzz2018": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{RFUZZ}}: Coverage-Directed Fuzz Testing of {{RTL}} on {{FPGAs}",
+      "authors": [
+        "Laeufer, Kevin",
+        "Koenig, Jack",
+        "Kim, Donggyu",
+        "Bachrach, Jonathan",
+        "Sen, Koushik"
+      ],
+      "abstract": "Dynamic verification is widely used to increase confidence in the correctness of RTL circuits during the pre-silicon design phase. Despite numerous attempts over the last decades to automate the stimuli generation based on coverage feedback, Coverage Directed Test Generation (CDG) has not found the widespread adoption that one would expect. Based on new ideas from the software testing community around coverage-guided mutational fuzz testing, we propose a new approach to the CDG problem which requires minimal setup and takes advantage of FPGA-accelerated simulation for rapid testing. We provide test input and coverage definitions that allow fuzz testing to be applied to RTL circuit verification. In addition we propose and implement a series of transformation passes that make it feasible to reset arbitrary RTL designs quickly, a requirement for deterministic test execution. Alongside this paper we provide rfuzz, a fully featured implementation of our testing methodology which we make available as open-source software to the research community. An empirical evaluation of rfuzz shows promising results on archiving coverage for a wide range of different RTL designs ranging from communication IPs to an industry scale 64-bit CPU.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3240765.3240842"
+    },
+    "suggestion": {
+      "relation": "The paper introduces a new approach to Coverage Directed Test Generation (CDG) for RTL circuit verification, leveraging FPGA-accelerated simulation for rapid testing, which aligns with the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be cited to highlight the use of FPGA-accelerated simulation for efficient RTL circuit verification.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "lahtiAreWeThere2019": {
+    "base": {
+      "article_type": "article",
+      "title": "re {{We There Yet}}? {{A Study}} on the {{State}} of {{High-Level Synthesis}",
+      "authors": [
+        "Lahti, Sakari",
+        "Sjovall, Panu",
+        "Vanne, Jarno",
+        "Hamalainen, Timo D."
+      ],
+      "abstract": "To increase productivity in designing digital hardware components, high-level synthesis (HLS) is seen as the next step in raising the design abstraction level. However, the quality of results (QoRs) of HLS tools has tended to be behind those of manual register-transfer level (RTL) flows. In this paper, we survey the scientific literature published since 2010 about the QoR and productivity differences between the HLS and RTL design flows. Altogether, our survey spans 46 papers and 118 associated applications. Our results show that on average, the QoR of RTL flow is still better than that of the state-of-the-art HLS tools. However, the average development time with HLS tools is only a third of that of the RTL flow, and a designer obtains over four times as high productivity with HLS. Based on our findings, we also present a model case study to sum up the best practices in comparative studies between HLS and RTL. The outcome of our case study is also in line with the survey results, as using an HLS tool is seen to increase the productivity by a factor of six. In addition, to help close the QoR gap, we present a survey of literature focused on improving HLS. Our results let us conclude that HLS is currently a viable option for fast prototyping and for designs with short time to market.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/TCAD.2018.2834439"
+    },
+    "suggestion": {
+      "relation": "This paper surveys the quality of results (QoRs) and productivity differences between high-level synthesis (HLS) and RTL design flows, providing insights into the trade-offs between QoR and productivity, which is relevant to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be referenced to discuss the trade-offs between quality of results and productivity in RTL simulation acceleration.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "liCompilerDrivenSimulationReconfigurable2022": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "ompiler-{{Driven Simulation}} of {{Reconfigurable Hardware Accelerators}",
+      "authors": [
+        "Li, Zhijing",
+        "Ye, Yuwei",
+        "Neuendorffer, Stephen",
+        "Sampson, Adrian"
+      ],
+      "abstract": "As customized accelerator design has become increasingly popular to keep up with the demand for high performance computing, it poses challenges for modern simulator design to adapt to such a large variety of accelerators. Existing simulators tend to two extremes: low-level and general approaches, such as RTL simulation, that can model any hardware but require substantial effort and long execution times; and higher-level application-specific models that can be much faster and easier to use but require one-off engineering effort.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/HPCA53966.2022.00052"
+    },
+    "suggestion": {
+      "relation": "The paper discusses the challenges of adapting modern simulator design to a large variety of accelerators, which is indirectly related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be used to provide context on the challenges in adapting simulators to diverse accelerator designs.",
+      "rating": 4
+    },
+    "sections": null
+  },
+  "linRTLCUDAGPU2022a": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "rom {{RTL}} to {{CUDA}}: {{A GPU Acceleration Flow}} for {{RTL Simulation}} with {{Batch Stimulus}",
+      "authors": [
+        "Lin, Dian-Lun",
+        "Ren, Haoxing",
+        "Zhang, Yanqing",
+        "Khailany, Brucek",
+        "Huang, Tsung-Wei"
+      ],
+      "abstract": "High-throughput RTL simulation is critical for verifying today\u2019s highly complex SoCs. Recent research has explored accelerating RTL simulation by leveraging event-driven approaches or partitioning heuristics to speed up simulation on a single stimulus. To further accelerate throughput performance, industry-quality functional verification signoff must explore running multiple stimulus (i.e., batch stimulus) simultaneously, either with directed tests or random inputs. In this paper, we propose RTLFlow, a GPU-accelerated RTL simulation flow with batch stimulus. RTLflow first transpiles RTL into CUDA kernels that each simulates a partition of the RTL simultaneously across multiple stimulus. It also leverages CUDA Graph and pipeline scheduling for efficient runtime execution. Measuring experimental results on a large industrial design (NVDLA) with 65536 stimulus, we show that RTLflow running on a single A6000 GPU can achieve a 40\u00d7 runtime speed-up when compared to an 80-thread multi-core CPU baseline.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3545008.3545091"
+    },
+    "suggestion": {
+      "relation": "The paper proposes a GPU-accelerated RTL simulation flow with batch stimulus, addressing the need for high-throughput RTL simulation, which directly relates to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be cited to illustrate the use of GPU acceleration for high-throughput RTL simulation with batch stimulus.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "liSymbolicSimulationEnhanced2021": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "ymbolic {{Simulation Enhanced Coverage-Directed Fuzz Testing}} of {{RTL Design}",
+      "authors": [
+        "Li, Tun",
+        "Zou, Hongji",
+        "Luo, Dan",
+        "Qu, Wanxia"
+      ],
+      "abstract": "With the ending of Moore\u2019s Law and Dennard scaling, modern System-on-a-Chip (SoC) trends to incorporate a large and growing number of specialized modules for specific applications. Verification is vital to the RTL design and faces new challenges due to the growing design complexities. In this paper, we proposed a symbolic simulation enhanced coveragedirected dynamic verification technique for RTL designs. We proposed novel Full Multiplexer Toggle Coverage (FMTC) to trace and provide feedback to the verification process. The proposed method is a hybrid between symbolic simulation and mutation based fuzz testing that offsets the disadvantages of both. The achievement of high coverage is obtained by interleaved symbolic simulation and fuzz testing passes. The symbolic simulation pass is used to generate tests that direct the testing to untouched corners. While the mutation based fuzz testing pass is used to leverage test generation tasks and to enable the method to deal with large scale designs. The empirical evaluation of the method shows promising results on archiving high coverage for practical designs.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ISCAS51556.2021.9401267"
+    },
+    "suggestion": {
+      "relation": "The paper proposes a symbolic simulation enhanced coverage-directed dynamic verification technique for RTL designs, which directly aligns with the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be referenced to discuss the use of symbolic simulation for enhanced coverage-directed dynamic verification in RTL simulation acceleration.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "lopez-paradisFastBehaviouralRTL2023": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "ast {{Behavioural RTL Simulation}} of {{10B Transistor SoC Designs}} with {{Metro-Mpi}",
+      "authors": [
+        "L\u00f3pez-Parad\u00eds, Guillem",
+        "Li, Brian",
+        "Armejach, Adri\u00e1",
+        "Wallentowitz, Stefan",
+        "Moret\u00f3, Miquel",
+        "Balkind, Jonathan"
+      ],
+      "abstract": "Chips with tens of billions of transistors have become today\u2019s norm. These designs are straining our electronic design automation tools throughout the design process, requiring ever more computational resources. In many tools, parallelisation has improved both latency and throughput for the designer\u2019s benefit. However, tools largely remain restricted to a single machine and in the case of RTL simulation, we believe that this leaves much potential performance on the table.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.23919/DATE56975.2023.10137080"
+    },
+    "suggestion": {
+      "relation": "The paper discusses the strain on electronic design automation tools due to the increasing complexity of SoC designs, indirectly related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be used to provide context on the computational resource challenges in RTL simulation acceleration.",
+      "rating": 3
+    },
+    "sections": null
+  },
+  "lopez-paradisGem5RtlFramework2021": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "em5 + Rtl: {{A Framework}} to {{Enable RTL Models Inside}} a {{Full-System Simulator}",
+      "authors": [
+        "L\u00f3pez-Parad\u00eds, Guillem",
+        "Armejach, Adri\u00e0",
+        "Moret\u00f3, Miquel"
+      ],
+      "abstract": "In recent years there has been a surge of interest in designing custom accelerators for power-efficient high-performance computing. However, available tools to simulate low-level RTL designs often neglect the target system in which the design will operate. This hinders proper testing and debugging of functionalities, and does not allow co-designing the accelerator to obtain a balanced and efficient architecture.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3472456.3472461"
+    },
+    "suggestion": {
+      "relation": "The paper introduces a framework to enable RTL models inside a full-system simulator, which is indirectly related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be cited to discuss the integration of RTL models within a full-system simulator for comprehensive testing and debugging.",
+      "rating": 4
+    },
+    "sections": null
+  },
+  "maALAMOFPGAAcceleration2018": {
+    "base": {
+      "article_type": "article",
+      "title": "{ALAMO}}: {{FPGA}} Acceleration of Deep Learning Algorithms with a Modularized {{RTL}} Compile",
+      "authors": [
+        "Ma, Yufei",
+        "Suda, Naveen",
+        "Cao, Yu",
+        "Vrudhula, Sarma",
+        "Seo, Jae-sun"
+      ],
+      "abstract": "Deploying Convolutional Neural Networks (CNNs) on a portable system is still challenging due to the large volume of data, the extensive amount of computation and frequent memory accesses. Although existing high-level synthesis tools (e.g. HLS, OpenCL) for FPGAs dramatically reduce the design time, the resulting implementations are still inefficient with respect to resource allocation for maximizing parallelism and throughput. Manual hardware-level design (i.e., RTL) can improve the efficiency and achieve greater acceleration but that requires an in-depth understanding of both the algorithm structure and the FPGA system architecture. This work presents a scalable solution that achieves the flexibility and reduced design time of high-level synthesis and the nearoptimality of an RTL implementation. The proposed solution is a compiler that analyzes the algorithm structure and parameters, and automatically integrates a set of modular and scalable computing primitives to accelerate the operation of various deep learning algorithms on an FPGA. Integrating these modules together for endto-end CNN implementations, this work quantitatively analyzes the complier's design strategy to optimize the throughput of a given CNN model under the FPGA resource constraints. The proposed RTL compiler, named ALAMO, is demonstrated on Altera Stratix-V GXA7 FPGA for the inference tasks of AlexNet and NiN CNN models, achieving 114.5 GOPS and 117.3 GOPS, respectively. This represents a 1.9X improvement in throughput when compared to the OpenCL-based design. The results illustrate the promise of the automatic compiler solution for modularized and scalable hardware acceleration of deep learning.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1016/j.vlsi.2017.12.009"
+    },
+    "suggestion": {
+      "relation": "This paper presents a compiler solution for modularized and scalable hardware acceleration of deep learning algorithms on FPGA, which is relevant to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be cited to discuss the use of compiler solutions for achieving hardware acceleration in RTL simulation.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "mahapatraDFGPartitioningAlgorithms2018": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{DFG Partitioning Algorithms}} for {{Coarse Grained Reconfigurable Array Assisted RTL Simulation Accelerators}",
+      "authors": [
+        "Mahapatra, Ipsita Biswas",
+        "Agarwal, Utkarsh",
+        "Nandy, S. K."
+      ],
+      "abstract": "As the complexity of circuit design increases, verification of these circuits through simulation also becomes extremely challenging. This creates a bottleneck in the IC design process. Distributed simulation is one way of solving this problem where the simulation workload is distributed among the parallel processors involved in the simulation. However the design has to be carefully partitioned for this purpose. In order to perform distributed simulation, many efficient partitioning algorithms have been proposed till date. These algorithms mostly partition gate level netlist or logic circuits and reduces inter-processor communication by minimizing cutsize for a given constraint of load balance. In this paper, we present two different partitioning schemes for performing distributed simulation. They are: a Discrete Particle Swarm Optimization (DPSO) based partitioning algorithm (DPSO-PA) and an effective partitioning heuristic. These algorithms partitions Data Flow Graph (DFG) for a recently proposed Coarse Grained Reconfigurable Array assisted Hardware Accelerator (CGRA-HA). We also propose an improved version of the original DPSO methodology through careful selection of initial partition sets. It is found that the proposed heuristic based partitioning algorithm outperforms the modified DPSO-PA in terms of lesser cut-edges.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/CONECCT.2018.8482367"
+    },
+    "suggestion": {
+      "relation": "This paper discusses partitioning algorithms for distributed simulation, specifically for Coarse Grained Reconfigurable Array assisted RTL simulation accelerators, which is related to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be referenced to explore the challenges and solutions in partitioning algorithms for RTL simulation acceleration.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "maoAcceleratingLoopOrientedRTL2023": {
+    "base": {
+      "article_type": "article",
+      "title": "ccelerating {{Loop-Oriented RTL Simulation With Code Instrumentation}",
+      "authors": [
+        "Mao, Fubing",
+        "Guo, Yapu",
+        "Liao, Xiaofei",
+        "Jin, Hai",
+        "Zhang, Wei",
+        "Liu, Haikun",
+        "Zheng, Long",
+        "Liu, Xu",
+        "Jiang, Zihan",
+        "Zheng, Xiaohua"
+      ],
+      "abstract": "The hardware description of circuits usually contains many loops. Register transfer level (RTL) simulation is a critical step to verify the correctness of circuits and is time consuming. Thus, it is necessary to speed up its process. However, the speedup of existing RTL simulation acceleration techniques is usually small. Although the speedup of hardware acceleration is large, the hardware cost is high. Some methods utilize performance models without performing RTL simulation to obtain rough simulation performance and have a large speedup. However, they do not support functional verification. In order to address the problems, we propose a loop-oriented RTL simulation acceleration approach based on code instrumentation for designs synthesized by high-level synthesis. Our approach reduces the RTL simulation time by skipping a large number of repeated loop iterations, and maintains high accuracy for the prediction of the number of cycles by reserving some loop iterations. We establish a performance prediction model and an interval value formula for skipping loop iterations. We conduct experiments on the MachSuite benchmark. The results show that for the RTL simulation of single data processing and batch data processing, the average speedup of our approach can reach 7.49\u00d7 and 43.3\u00d7, respectively, and the average prediction errors of the number of cycles are 1.71\\% and 1.06\\%, respectively. It also reveals that the interval value obtained by our approach for skipping loop iterations can quickly and effectively balance between the accuracy of prediction of the number of cycles and speedup. Compared to the state-of-the-art approach ESSENT, the speedup of our approach is better and the accuracy of prediction of the number of cycles remains at the same level as that of performance models.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/TCAD.2023.3276939"
+    },
+    "suggestion": {
+      "relation": "The paper proposes a loop-oriented RTL simulation acceleration approach based on code instrumentation, which directly addresses the need to speed up RTL simulation, making it highly relevant to the user's topic.",
+      "suggestion": "This paper provides insights into a specific approach for accelerating RTL simulation and can be cited for discussing different techniques for speeding up RTL simulation.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "mueller-gritschnederETISSMLMultilevelInstruction2018": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{ETISS-ML}}: {{A}} Multi-Level Instruction Set Simulator with {{RTL-level}} Fault Injection Support for the Evaluation of Cross-Layer Resiliency Technique",
+      "authors": [
+        "Mueller-Gritschneder, Daniel",
+        "Dittrich, Martin",
+        "Weinzierl, Josef",
+        "Cheng, Eric",
+        "Mitra, Subhasish",
+        "Schlichtmann, Ulf"
+      ],
+      "abstract": "ETISS is an instruction set simulator (ISS) for Virtual Prototypes (VPs) modeled with SystemC/TLM. In this paper, we propose the extension ETISS-ML, which enables a multi-level simulation that switches between ISS-level and register transfer level (RTL) to accurately evaluate the impact of soft errors in the pipeline of a RISC processor. ETISS-ML achieves close-to-RTL-accurate fault injection simulation results with close-to-ISS simulation performance with a speed up gain up to 100x compared to RTL. For this, we propose an approach to dynamically determine the length of the RTL simulation period. The high simulation performance of ETISS-ML enables an ultra-efficient and accurate evaluation of cross-layer resiliency techniques for embedded applications, which requires running a large number of fault injections for long simulation scenarios. This is demonstrated on a case study of a Microcontroller Unit (MCU) executing a control algorithm for adaptive cruise control.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.23919/DATE.2018.8342081"
+    },
+    "suggestion": {
+      "relation": "This paper introduces ETISS-ML, a multi-level instruction set simulator with RTL-level fault injection support, which is relevant to the user's topic of RTL simulation acceleration and evaluation of cross-layer resiliency techniques.",
+      "suggestion": "This paper can be cited to discuss the use of multi-level simulation for evaluating RTL-level fault injection and cross-layer resiliency techniques.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "pintoRTLFunctionalTest2017": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{RTL}} Functional Test Generation Using Factored Concolic Executio",
+      "authors": [
+        "Pinto, Sonal",
+        "Hsiao, Michael S."
+      ],
+      "abstract": "In this paper, we present CORT, a factored concolic execution based methodology for high-level functional test generation. Our test generation effort is visualized as the systematic unraveling of the control-flow response of the design over multiple explorations. We begin by transforming the Register Transfer Level (RTL) source for the design into a high-performance C++ compiled functional simulator which is instrumented for branch coverage. An exploration begins by simulating the design with concrete stimuli. Then, we perform an interleaved cycle-by-cycle symbolic evaluation over the concrete execution trace extracted from the Control Flow Graph (CFG) of the design. The purpose of this task is to dynamically discover means to divert the control flow of the system, by mutating primary-input stimulated control statements in this trace. We record the control-flow response as a Test Decision Tree (TDT), a novel representation for the test generation effort. Successive explorations begin at system states heuristically selected from a global TDT, onto which each new decision tree resultant from an exploration is stitched. CORT succeeds at constructing functional tests for ITC99 and IWLS2005 benchmarks that achieve high branch coverage using the fewest number of input vectors, faster than existing methods. Furthermore, we achieve orders of magnitude speedup compared to previous hybrid concrete and symbolic simulation based techniques.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/TEST.2017.8242038"
+    },
+    "suggestion": {
+      "relation": "The paper presents a factored concolic execution based methodology for high-level functional test generation, which is related to the user's topic of RTL simulation acceleration and functional test generation.",
+      "suggestion": "This paper can be referenced to explore different methodologies for functional test generation in the context of RTL simulation acceleration.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "qianAcceleratingRTLSimulation2011": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "ccelerating {{RTL}} Simulation with {{GPUs}",
+      "authors": [
+        "Qian, Hao",
+        "Deng, Yangdong"
+      ],
+      "abstract": "With the fast increasing complexity of integrated circuits, verification has become the bottleneck of today\u2019s IC design flow. In fact, over 70\\% of the IC design turn-around time can be spent on the verification process in a typical IC design project. Among various verification tasks, Register Transfer Level (RTL) simulation is the most widely used method to validate the correctness of digital IC designs. When simulating a large IC design with complicated internal behaviors (e.g., CPU cores running embedded software), RTL simulation can be extremely time consuming. Since RTL-to-layout is still the most prevalent IC design methodology, it is essential to speedup the RTL simulation process. Recently, General Purpose computing on Graphics Processing Units (GPGPU) is becoming a promising paradigm to accelerate computing-intensive workloads. A few recent works have demonstrated the effectiveness of using GPU to expedite gate and system level simulation tasks. In this work, we proposed an efficient GPU-accelerated RTL simulation framework. We introduce a methodology to translate Verilog RTL description into equivalent GPU source code so as to simulate circuit behavior on GPUs. In addition, a CMB based parallel simulation protocol is also adopted to provide a sufficient level of parallelism. Because RTL simulation lacks data-level parallelism, we also present a novel solution to use GPU as an efficient task-level parallel processor. Experimental results prove that our GPU based simulator outperforms a commercial sequential RTL simulator by over 20 fold.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ICCAD.2011.6105404"
+    },
+    "suggestion": {
+      "relation": "This paper proposes an efficient GPU-accelerated RTL simulation framework, which directly addresses the need to speed up RTL simulation, making it highly relevant to the user's topic.",
+      "suggestion": "This paper provides insights into using GPUs for accelerating RTL simulation and can be cited for discussing different acceleration techniques.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "sanaullahSimBSPEnablingRTL": {
+    "base": {
+      "article_type": "article",
+      "title": "{SimBSP}}: {{Enabling RTL Simulation}} for {{Intel FPGA OpenCL Kernels}",
+      "authors": [
+        "Sanaullah, Ahmed",
+        "Yang, Chen",
+        "Crawley, Daniel",
+        "Herbordt, Martin C"
+      ],
+      "abstract": "RTL simulation is an integral step in FPGA development since it provides cycle accurate information regarding the behavior and performance of custom architectures, without having to compile the design to actual hardware. Despite its advantages, however, RTL simulation is not currently supported by a number of commercial FPGA OpenCL toolflows, including Intel OpenCL SDK for FPGAs (IOCLF). Obtaining reliable performance values for OpenCL kernels requires a full compilation to hardware, while emulation can only provide functional verification of the C code. Thus, development and optimization time-frames for IOCLF designs can be on the order of days, even for simple applications. In this work, we present our custom Board Support Package for IOCLF, called SimBSP, which enables OpenCL kernels to be compiled for RTL simulation. Use of SimBSP reduces the time taken per OpenCL code optimization iteration from hours to minutes. We provide details regarding the standard kernel ports created by the IOCLF compiler, which can be used by testbenches to interface the generated design. We also list the addresses and descriptions of configuration registers that are used to set kernel parameters and provide a start trigger. Finally, we present details of SimBSP toolflow, which is integrated into the standard IOCLF and automates the process of generating kernel HDL and testbenches, and setting up the simulation environment. Our work on SimBSP will be made available Open Source to drive a community effort towards further improving the toolflow.",
+      "publication_year": "",
+      "keywords": "\u26d4 No DOI found",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "The paper introduces SimBSP, a custom Board Support Package for enabling RTL simulation for Intel FPGA OpenCL kernels, which is relevant to the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper can be cited to discuss the development of custom toolflows for enabling RTL simulation of OpenCL kernels.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "sandalZeroShotRTLCode2024": {
+    "base": {
+      "article_type": "online",
+      "title": "ero-{{Shot RTL Code Generation}} with {{Attention Sink Augmented Large Language Models}",
+      "authors": [
+        "Sandal, Selim",
+        "Akturk, Ismail"
+      ],
+      "abstract": "The design and optimization of hardware have traditionally been resource-intensive, demanding considerable expertise and dependence on established design automation tools. This paper discusses the possibility of exploiting large language models to streamline the code generation process in hardware design. In contrast to earlier studies, this paper aims to use large language models that accepts high-level design specifications through a single prompt to generate corresponding RegisterTransfer Level (RTL) code. The ability to use large language models on RTL code generation not only expedites design iteration cycles but also facilitates the exploration of design spaces that have computational challenges for conventional techniques. Through our evaluation, we demonstrate the shortcoming of existing attention mechanisms, and present the abilities of language models to produce functional, optimized, and industrystandard compliant RTL code when a novel attention mechanism is used. These findings underscore the expanding role of large language models in shaping the future landscape of architectural exploration and automation in hardware design.",
+      "publication_year": "",
+      "keywords": "Computer Science - Artificial Intelligence,Computer Science - Hardware Architecture,Computer Science - Machine Learning,Computer Science - Programming Languages,Computer Science - Software Engineering",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "This paper discusses the use of large language models for streamlined RTL code generation, which is related to the user's topic of RTL simulation acceleration and automation in hardware design.",
+      "suggestion": "This paper can be referenced to explore the potential of large language models in automating RTL code generation for hardware design.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "satoArchHDLNovelHardware2018": {
+    "base": {
+      "article_type": "article",
+      "title": "{ArchHDL}}: {{A Novel Hardware RTL Modeling}} and {{High-Speed Simulation Environment}",
+      "authors": [
+        "Sato, Shimpei",
+        "Kobayashi, Ryohei",
+        "Kise, Kenji"
+      ],
+      "abstract": "LSIs are generally designed through four stages including architectural design, logic design, circuit design, and physical design. In architectural design and logic design, designers describe their target hardware in RTL. However, they generally use different languages for each phase. Typically a general purpose programming language such as C or C++ and a hardware description language such as Verilog HDL or VHDL are used for architectural design and logic design, respectively. That is time-consuming way for designing a hardware and more efficient design environment is required. In this paper, we propose a new hardware modeling and high-speed simulation environment for architectural design and logic design. Our environment realizes writing and verifying hardware by one language. The environment consists of (1) a new hardware description language called ArchHDL, which enables to simulate hardware faster than Verilog HDL simulation, and (2) a source code translation tool from ArchHDL code to Verilog HDL code. ArchHDL is a new language for hardware RTL modeling based on C++. The key features of this language are that (1) designers describe a combinational circuit as a function and (2) the ArchHDL library realizes non-blocking assignment in C++. Using these features, designers are able to write a hardware transparently from abstracted level description to RTL description in Verilog HDL-like style. Source codes in ArchHDL is converted to Verilog HDL codes by the translation tool and they are used to synthesize for FPGAs or ASICs. As the evaluation of our environment, we implemented a practical many-core processor in ArchHDL and measured the simulation speed on an Intel CPU and an Intel Xeon Phi processor. The simulation speed for the Intel CPU by ArchHDL achieves about 4.5 times faster than the simulation speed by Synopsys VCS. We also confirmed that the RTL simulation by ArchHDL is efficiently parallelized on the Intel Xeon Phi processor. We convert the ArchHDL code to a Verilog HDL code and estimated the hardware utilization on an FPGA. To implement a 48-node many-core processor, 71\\% of entire resources of a Virtex-7 FPGA are consumed.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1587/transinf.2017RCP0012"
+    },
+    "suggestion": {
+      "relation": "This paper introduces a new hardware modeling and high-speed simulation environment for architectural design and logic design, proposing a new hardware description language called ArchHDL for RTL modeling, which could be relevant to the user's survey of RTL simulation acceleration.",
+      "suggestion": "This paper can be cited as an example of a novel approach to RTL modeling and simulation acceleration using a new hardware description language.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "saxenaErrorModelEM2022": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "rror {{Model}} ({{EM}})\u2015{{A New Way}} of {{Doing Fault Simulation}",
+      "authors": [
+        "Saxena, Nirmal",
+        "Lotfi, Atieh"
+      ],
+      "abstract": "This paper introduces the concept of error model (EM) that replaces a traditional fault-model-based simulation. EM is a temporal simulation of fault symptoms in an application processor. This paper shows that the application resiliency metrics, such as fault coverage, derived through EM are more comprehensive and accurate than those derived through empirical models like single stuck-at faults. In addition, EM can be used on high-level simulation models (behavioral RTL, emulation or in some cases in-silicon). EM approach gives greater than three orders of performance improvement over gate netlist models using stuck-at fault simulation. This paper shows that the coverage metrics, for a billion-logic-gate GPU design, obtained through in-silicon EM closely match the corresponding coverage metrics estimated from a low-level netlist with single stuck-at fault simulation.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ITC50671.2022.00040"
+    },
+    "suggestion": {
+      "relation": "The paper introduces the concept of error model (EM) for fault simulation, showing comprehensive and accurate fault coverage metrics and significant performance improvement, which could be relevant to the user's survey of RTL simulation acceleration in terms of fault simulation and performance improvement.",
+      "suggestion": "This paper can be cited as an example of a new approach to fault simulation and performance improvement in RTL simulation.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "tineTangoOptimizingCompiler2020": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "ango: {{An Optimizing Compiler}} for {{Just-In-Time RTL Simulation}",
+      "authors": [
+        "Tine, Blaise-Pascal",
+        "Yalamanchili, Sudhakar",
+        "Kim, Hyesoon"
+      ],
+      "abstract": "With Moore\u2019s law coming to an end, the advent of hardware specialization presents a unique challenge for a much tighter software and hardware co-design environment to exploit domain-specific optimizations and increase design efficiency. This trend is further accentuated by rapid-pace of innovations in Machine Learning and Graph Analytic, calling for a faster product development cycle for hardware accelerators and the importance of addressing the increasing cost of hardware verification. The productivity of softwarehardware co-design relies upon better integration between the software and hardware design methodologies, but more importantly in the effectiveness of the design tools and hardware simulators at reducing the development time. In this work, we developed Tango, an Optimizing compiler for Just-in-Time RTL simulation. Tango implements unique hardware-centric compiler transformations to speed up runtime code generation in a software-hardware co-design environment where hardware simulation speed is critical. Tango achieves a 6x average speedup compared to the state-of-the-art simulators.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.23919/DATE48585.2020.9116253"
+    },
+    "suggestion": {
+      "relation": "This paper presents Tango, an optimizing compiler for Just-in-Time RTL simulation, achieving a significant speedup compared to state-of-the-art simulators, which is relevant to the user's survey of RTL simulation acceleration in terms of optimizing RTL simulation speed.",
+      "suggestion": "This paper can be cited as an example of an optimizing compiler for Just-in-Time RTL simulation to improve simulation speed.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "vieiraGem5accelPreRTLSimulation2024": {
+    "base": {
+      "article_type": "article",
+      "title": "em5-Accel: {{A Pre-RTL Simulation Toolchain}} for {{Accelerator Architecture Validation}",
+      "authors": [
+        "Vieira, Jo\u00e3o",
+        "Roma, Nuno",
+        "Falcao, Gabriel",
+        "Tom\u00e1s, Pedro"
+      ],
+      "abstract": "Attaining the performance and efficiency levels required by modern applications often requires the use of application-specific accelerators. However, writing synthesizable Register-Transfer Level code for such accelerators is a complex, expensive, and time-consuming process, which is cumbersome for early architecture development phases. To tackle this issue, a pre-synthesis simulation toolchain is herein proposed that facilitates the early architectural evaluation of complex accelerators aggregated to multi-level memory hierarchies. To demonstrate its usefulness, the proposed gem5-accel is used to model a tensor accelerator based on Gemmini, showing that it can successfully anticipate the results of complex hardware accelerators executing deep Neural Network models.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/LCA.2023.3329443"
+    },
+    "suggestion": {
+      "relation": "The paper proposes a pre-RTL simulation toolchain for early architectural evaluation of complex accelerators, which is relevant to the user's survey of RTL simulation acceleration in terms of early architectural evaluation and simulation toolchain for accelerators.",
+      "suggestion": "This paper can be cited as an example of a pre-RTL simulation toolchain for early architectural evaluation of complex accelerators.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "wangRepCutSuperlinearParallel2023a": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "{RepCut}}: {{Superlinear Parallel RTL Simulation}} with {{Replication-Aided Partitioning}",
+      "authors": [
+        "Wang, Haoyuan",
+        "Beamer, Scott"
+      ],
+      "abstract": "Register transfer level (RTL) simulation is an invaluable tool for developing, debugging, verifying, and validating hardware designs. Despite the parallel nature of hardware, existing parallel RTL simulators yield speedups unattractive for practical application due to high communication and synchronization costs incurred by typical circuit topologies.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3582016.3582034"
+    },
+    "suggestion": {
+      "relation": "The paper discusses the challenges of parallel RTL simulation and proposes a new method for superlinear parallel RTL simulation, which could be relevant to the user's survey of RTL simulation acceleration in terms of parallel simulation improvement.",
+      "suggestion": "This paper can be cited as an example of addressing the challenges of parallel RTL simulation and proposing a new method for superlinear parallel simulation.",
+      "rating": 5
+    },
+    "sections": null
+  },
+  "xingGeneralizingTandemSimulation2022": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "eneralizing {{Tandem Simulation}}: {{Connecting High-level}} and {{RTL Simulation Models}",
+      "authors": [
+        "Xing, Yue",
+        "Gupta, Aarti",
+        "Malik, Sharad"
+      ],
+      "abstract": "Simulation-based testing has been the workhorse of hardware implementation validation. For processors, tandem simulation improves test and debug efficiency by cross-level simulating the Instruction Set Architecture (ISA) and RTL models, and comparing architectural-state variables at the end of each instruction rather than at the end of the whole trace. Further, the simulation may start with the ISA model and switch to the RTL model at some point by transferring the values of the architectural variables, thus speeding up the \u201cwarm-up\u201d phase. However, thus far tandem simulation has been limited to processor designs as other SoC components lack high-level ISA models and thus the notion of instructions. Even for processors, significant manual effort is required in connecting the two models and constructing the necessary controller to synchronize/check/swap between them. This paper leverages the recently proposed Instruction-level Abstractions (ILAs) for generalizing tandem simulation to accelerators. Further, we use the refinement-map that is part of the ILA verification methodology to automate the connection between the ILA and the RTL simulation models for both processors and accelerators. We provide seven case studies to demonstrate the practical applicability of our methodology.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ASP-DAC52403.2022.9712564"
+    },
+    "suggestion": {
+      "relation": "The paper discusses generalizing tandem simulation to accelerators and provides case studies to demonstrate the practical applicability, which could be relevant to the user's survey of RTL simulation acceleration in terms of generalizing tandem simulation to accelerators.",
+      "suggestion": "This paper can be cited as an example of generalizing tandem simulation to accelerators and providing practical case studies.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "zengAccelerateLogicResimulation2021": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "ccelerate {{Logic Re-simulation}} on {{GPU}} via {{Gate}}/{{Event Parallelism}} and {{State Compression}",
+      "authors": [
+        "Zeng, Cheng",
+        "Yang, Fan",
+        "Zeng, Xuan"
+      ],
+      "abstract": "In this paper, we propose a logic re-simulation method on GPU via gate/event parallelism and state compression. We achieve 2dimensional parallelism on GPU through grouping gates and splitting events. Furthermore, we compress the states to reduce the communication overhead. Asynchronous communication between GPU and CPU is used to hide the latency of dumping results. Compared with the first place of problem C of ICCAD contest 2020, the proposed method can be 47.1\\% better on the speedup of single design and 10.5\\% better on the geometric mean of speedup for all the benchmarks.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1109/ICCAD51958.2021.9643571"
+    },
+    "suggestion": {
+      "relation": "The paper proposes a logic re-simulation method on GPU via gate/event parallelism and state compression, achieving significant speedup, which could be relevant to the user's survey of RTL simulation acceleration in terms of GPU-based acceleration and state compression for simulation.",
+      "suggestion": "This paper can be cited as an example of a logic re-simulation method on GPU via gate/event parallelism and state compression for RTL simulation acceleration.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "zengAutomaticGenerationArchitectureLevel2022": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "utomatic {{Generation}} of {{Architecture-Level Models}} from {{RTL Designs}} for {{Processors}} and {{Accelerators}",
+      "authors": [
+        "Zeng, Yu",
+        "Gupta, Aarti",
+        "Malik, Sharad"
+      ],
+      "abstract": "Hardware platforms comprise general-purpose processors and application-specific accelerators. Unlike processors, application-specific accelerators often do not have clearly specified architecture-level models/specifications (the instruction set architecture or ISA). This poses challenges to the development and verification/validation of firmware/software for these accelerators. Manually writing architecture-level models takes great effort and is error-prone. When Register-Transfer Level (RTL) designs are available, they can be a source from which to automatically derive the architecture-level models. In this work, we propose an approach for automatically generating architecture-level models for processors as well as accelerators from their RTL designs. In previous work we showed how to automatically extract the architectural state variables (ASVs) from RTL designs. (These are the state variables that are persistent across instructions.) In this work we present an algorithm for generating the update functions of the model: how the ASVs and outputs are updated by each instruction. Experiments on several processors and accelerators demonstrate that our approach can cover a wide range of hardware features and generate highquality architecture-level models within reasonable time.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.23919/DATE54114.2022.9774527"
+    },
+    "suggestion": {
+      "relation": "The paper proposes an approach for automatically generating architecture-level models for processors and accelerators from their RTL designs, which could be relevant to the user's survey of RTL simulation acceleration in terms of automatic generation of architecture-level models.",
+      "suggestion": "This paper can be cited as an example of an approach for automatically generating architecture-level models for processors and accelerators from RTL designs.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "zhangOpportunitiesRTLGate2020a": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "pportunities for {{RTL}} and Gate Level Simulation Using {{GPUs}",
+      "authors": [
+        "Zhang, Yanqing",
+        "Ren, Haoxing",
+        "Khailany, Brucek"
+      ],
+      "abstract": "This paper summarizes the opportunities in accelerating simulation on parallel processing hardware platforms such as GPUs. First, we give a summary of prior art. Then, we propose the idea that coding frameworks usually used for popular machine learning (ML) topics, such as PyTorch/DGL.ai, can also be used for exploring simulation purposes. We demo a crude oblivious two-value cycle gate-level simulator using the higher level ML framework APIs that exhibits {$>$}20X speedup, despite its simplistic construction. Next, we summarize recent advances in GPU features that may provide additional opportunities to further state-of-the-art results. Finally, we conclude and touch upon some potential areas for furthering research into the topic of GPU accelerated simulation.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3400302.3415773"
+    },
+    "suggestion": {
+      "relation": "The paper discusses the acceleration of simulation on parallel processing hardware platforms, specifically GPUs, and explores the use of coding frameworks like PyTorch/DGL.ai for simulation purposes, which aligns with the user's topic of RTL simulation acceleration.",
+      "suggestion": "This paper provides insights into accelerating simulation using GPUs and coding frameworks, which can be cited to discuss the potential of parallel processing hardware in RTL simulation acceleration.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "zhaoEmpyreanALPSGTGPUaccelerated": {
+    "base": {
+      "article_type": "article",
+      "title": "mpyrean {{ALPS-GT}}: {{GPU-accelerated Analog Circuit Simulation}} ({{Invited Talk}}",
+      "authors": [
+        "Zhao, Chen",
+        "Zhou, Zhenya",
+        "Wu, Dake",
+        "Empyrean\u8f6f, Zhenya Zhou"
+      ],
+      "abstract": "SPICE (Simulation Program with Integrated Circuit Emphasis) has become an indispensable tool for the simulation of transistor-level circuits since its introduction in the early 1970s [1]. Over the years, many SPICE simulators have been introduced and their capabilities have been greatly improved. However, as we move into deeper sub-micron designs and circuit sizes keep increasing, the capabilities of current SPICE simulators prove insufficient; continuous performance breakthroughs are needed to keep up with the demands of larger circuits, high accuracy and fast turn-around. SPICE developers have put lots of effort to improve speed. In this paper, we will present how GPU is used to accelerate SPICE simulation with 10 \u00d7 + performance gain.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "This paper focuses on using GPUs to accelerate SPICE simulation, highlighting the need for continuous performance breakthroughs to keep up with the demands of larger circuits, high accuracy, and fast turn-around, which is relevant to the user's topic of RTL simulation acceleration.",
+      "suggestion": "The paper can be cited to emphasize the need for continuous performance improvements in simulation tools to meet the demands of modern circuit designs.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "zhouKhronosFusingMemory2023": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "hronos: {{Fusing Memory Access}} for {{Improved Hardware RTL Simulation}",
+      "authors": [
+        "Zhou, Kexing",
+        "Liang, Yun",
+        "Lin, Yibo",
+        "Wang, Runsheng",
+        "Huang, Ru"
+      ],
+      "abstract": "The use of register transfer level (RTL) simulation is critical for hardware design in various aspects including verification, debugging, and design space exploration. Among various RTL simulation techniques, cycle-accurate software RTL simulation is the most prevalent approach due to its easy accessibility and high flexibility. The current state-of-the-art cycle-accurate simulators mainly use full-cycle RTL simulation that models RTL as a directed acyclic computational graph and traverses the graph in each simulation cycle. However, the adoption of full-cycle simulation makes them mainly focus on optimizing the logic evaluation within one simulation cycle, neglecting temporal optimization opportunities.",
+      "publication_year": "",
+      "keywords": "",
+      "doi": "10.1145/3613424.3614301"
+    },
+    "suggestion": {
+      "relation": "The paper addresses the optimization opportunities in cycle-accurate software RTL simulation, highlighting the neglect of temporal optimization opportunities, which is related to the user's topic of RTL simulation acceleration and the need for improving simulation efficiency.",
+      "suggestion": "This paper can be cited to discuss the current state-of-the-art cycle-accurate simulators and the potential for optimizing RTL simulation for improved efficiency.",
+      "rating": 6
+    },
+    "sections": null
+  }
+}

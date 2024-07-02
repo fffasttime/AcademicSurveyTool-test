@@ -1,0 +1,5 @@
+Relation: The paper "MindFI: A Fault Injection Tool for Reliability Assessment of MindSpore Applications" is about evaluating the reliability of deep learning applications, including fault injection for assessing the fault tolerance of DNN models, which is related to the topic of "A survey of hardware error fault tolerance for deep learning".
+
+Suggestion: This paper can be used to discuss the importance of fault tolerance evaluation for deep learning applications and the development of fault injection tools for assessing the reliability of DNN models.
+
+Relevance rating: 7

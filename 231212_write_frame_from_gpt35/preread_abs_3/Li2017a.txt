@@ -1,0 +1,4 @@
+Title: Understanding error propagation in Deep Learning Neural Network (DNN) accelerators and applications
+Relation: The paper focuses on evaluating the resilience characteristics of DNN systems running on specialized accelerators and proposes protection techniques, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the impact of hardware errors on DNN systems and the evaluation of resilience characteristics in the context of specialized accelerators.
+Relevance rating: 7

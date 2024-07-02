@@ -1,0 +1,4 @@
+Title: Accelerator-friendly neural-network training: Learning variations and defects in RRAM crossbar
+Relation: This paper focuses on addressing resistance variations and stuck-at faults in RRAM crossbars, which are crucial for achieving fault tolerance in hardware for deep learning.
+Suggestion: This paper can be cited to discuss the impact of resistance variations and stuck-at faults in RRAM crossbars on the classification accuracy of neural networks, and the proposed method for achieving fault tolerance.
+Relevance rating: 7

@@ -1,0 +1,4 @@
+Title: A survey on modeling and improving reliability of DNN algorithms and accelerators
+Relation: The paper discusses techniques for studying and optimizing the reliability of DNN accelerators and architectures, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to understand the unique characteristics of DNN algorithms/accelerators and the techniques for improving their reliability in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7

@@ -1,0 +1,4 @@
+Title: Dynamic Adaptation of Approximate Bit-width for CNNs based on Quantitative Error Resilience
+Relation: This paper explores the use of approximate computing to reduce power consumption in CNNs by dynamically adapting the approximate bit-width, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the application of approximate computing techniques for improving fault tolerance in hardware for deep learning.
+Relevance rating: 7

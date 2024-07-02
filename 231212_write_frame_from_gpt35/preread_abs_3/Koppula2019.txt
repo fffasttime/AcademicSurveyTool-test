@@ -1,0 +1,4 @@
+Title: EDEN: Enabling energy-efficient, high-performance deep neural network inference using approximate DRAM
+Relation: The paper proposes a framework, EDEN, to reduce energy consumption and evaluation latency of deep neural network (DNN) inference systems using approximate DRAM devices, which is related to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited as an example of using approximate memory to improve energy efficiency and performance of DNN inference systems, while addressing the trade-off with reliability.
+Relevance rating: 7

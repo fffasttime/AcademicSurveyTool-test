@@ -1,0 +1,4 @@
+Title: Retraining-based timing error mitigation for hardware neural networks
+Relation: The paper focuses on mitigating timing errors in neural network accelerators by leveraging the error resiliency of neural networks, which is related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the approach of leveraging the error resiliency of neural networks to mitigate timing errors in hardware neural networks for deep learning applications.
+Relevance rating: 7

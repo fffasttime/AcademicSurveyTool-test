@@ -1,0 +1,4 @@
+Title: Soft Error Mitigation for Deep Convolution Neural Network on FPGA Accelerators
+Relation: The paper focuses on mitigating the impact of single event upsets (SEU) in FPGA devices on the performance of convolutional neural networks (CNNs), which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss fault-tolerant design strategies for FPGA-based CNN accelerators in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 7

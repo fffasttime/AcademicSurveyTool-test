@@ -1,0 +1,4 @@
+Title: Engineering reliable deep learning systems
+Relation: The paper discusses the need for reliability and maintainability of AI applications, which is related to the topic of ensuring hardware fault tolerance for deep learning systems.
+Suggestion: This paper can be used to provide context on the importance of reliability in AI systems and the need for systematic approaches in AI engineering for the literature review.
+Relevance rating: 7

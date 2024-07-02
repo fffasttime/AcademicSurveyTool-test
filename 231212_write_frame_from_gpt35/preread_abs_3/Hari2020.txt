@@ -1,0 +1,4 @@
+Title: Making Convolutions Resilient via Algorithm-Based Error Detection Techniques
+Relation: This paper focuses on algorithmically verifying convolutions in CNNs to ensure resilience to hardware faults, which aligns with the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the practical feasibility and performance of algorithm-based error detection techniques for deep learning hardware fault tolerance in the literature review.
+Relevance rating: 7

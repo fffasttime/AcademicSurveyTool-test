@@ -1,0 +1,4 @@
+Title: Concurrent Detection of Failures in GPU Control Logic for Reliable Parallel Computing
+Relation: The paper focuses on detecting failures in GPU control logic to improve reliability, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the challenges and techniques for detecting hardware failures in GPUs, providing insights into fault tolerance for deep learning hardware.
+Relevance rating: 7

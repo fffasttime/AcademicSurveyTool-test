@@ -1,0 +1,4 @@
+Title: On the Resilience of RTL NN Accelerators: Fault Characterization and Mitigation
+Relation: This paper focuses on studying the resilience of hardware accelerators for neural networks, specifically on fault characterization and mitigation, which is directly related to the topic of hardware error fault tolerance for deep learning in the literature review.
+Suggestion: This paper provides insights into fault characterization and mitigation for hardware accelerators in neural networks, which can be used to discuss the challenges and potential solutions for hardware error fault tolerance in deep learning.
+Relevance rating: 7

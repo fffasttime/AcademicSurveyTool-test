@@ -1,0 +1,4 @@
+Title: Accurate neuron resilience prediction for a flexible reliability management in neural network accelerators
+Relation: The paper focuses on predicting error resilience of neurons in deep neural networks to improve hardware reliability, which aligns with the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the importance of predicting error resilience in deep neural networks for hardware fault tolerance in deep learning systems.
+Relevance rating: 7

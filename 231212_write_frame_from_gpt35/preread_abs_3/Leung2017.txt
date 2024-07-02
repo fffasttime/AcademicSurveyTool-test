@@ -1,0 +1,4 @@
+Title: A Regularizer Approach for RBF Networks Under the Concurrent Weight Failure Situation
+Relation: The paper focuses on fault tolerance in neural networks, specifically addressing the impact of weight failures on the performance of radial basis function (RBF) networks.
+Suggestion: This paper can be used to understand fault tolerance techniques for neural networks and to compare fault tolerance strategies in deep learning with those in RBF networks.
+Relevance rating: 7

@@ -1,0 +1,4 @@
+Title: Sensitivity based error resilient techniques for energy efficient deep neural network accelerators
+Relation: The paper focuses on error resilient techniques for energy efficient DNN accelerator design, which is related to the topic of hardware error fault tolerance for deep learning in terms of addressing computational errors caused by hardware circuit errors.
+Suggestion: This paper can be used to discuss the specific error resilient techniques for energy efficient DNN accelerator design in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7

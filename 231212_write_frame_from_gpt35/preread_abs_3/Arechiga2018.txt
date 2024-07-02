@@ -1,0 +1,4 @@
+Title: The Robustness of Modern Deep Learning Architectures against Single Event Upset Errors
+Relation: This paper investigates the robustness of modern deep learning architectures, specifically Convolutional Neural Networks, against single event upset errors, which aligns with the user's literature review on hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the robustness of Convolutional Neural Networks against single event upset errors and the impact of memory errors on neural network performance.
+Relevance rating: 7

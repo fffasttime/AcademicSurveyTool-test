@@ -1,0 +1,4 @@
+Title: Fidelity: Efficient resilience analysis framework for deep learning accelerators
+Relation: The paper presents a resilience analysis framework for deep learning accelerators, focusing on hardware errors and ensuring reliability, which is directly related to the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to discuss the development of a resilience analysis framework for deep learning accelerators and the importance of ensuring reliability in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 8

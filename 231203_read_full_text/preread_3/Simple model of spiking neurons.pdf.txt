@@ -1,0 +1,5 @@
+Relation: The paper "Simple Model of Spiking Neurons" presents a model that reproduces spiking and bursting behavior of cortical neurons, which is relevant to understanding hardware error fault tolerance for deep learning.
+
+Suggestion: This paper can be used to discuss the modeling of spiking and bursting behavior of cortical neurons in the context of hardware error fault tolerance for deep learning.
+
+Relevance rating: 7

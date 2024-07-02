@@ -1,0 +1,4 @@
+Title: RRAMedy: Protecting ReRAM-based neural network from permanent and soft faults during its lifetime
+Relation: The paper focuses on protecting ReRAM-based neural networks from permanent and soft faults, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the specific techniques for fault detection and network remedy in ReRAM-based neural accelerators within the context of hardware fault tolerance for deep learning.
+Relevance rating: 7

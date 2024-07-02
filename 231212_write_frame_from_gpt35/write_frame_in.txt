@@ -1,0 +1,347 @@
+id: 1
+Title: The Robustness of Modern Deep Learning Architectures against Single Event Upset Errors
+Relation: This paper investigates the robustness of modern deep learning architectures, specifically Convolutional Neural Networks, against single event upset errors, which aligns with the user's literature review on hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the robustness of Convolutional Neural Networks against single event upset errors and the impact of memory errors on neural network performance.
+Relevance rating: 7
+---
+id: 2
+Title: Towards a Bayesian Approach for Assessing Fault Tolerance of Deep Neural Networks
+Relation: This paper introduces a novel methodology for fault injection in neural networks using Bayesian Deep Learning, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the application of Bayesian Deep Learning in assessing fault tolerance for deep neural networks in the context of hardware errors.
+Relevance rating: 7
+---
+id: 3
+Title: Secure and Resilient SoCs for Autonomous Vehicles
+Relation: The paper discusses the design considerations for embedded systems-on-chip (SoCs) in autonomous vehicles, including reliability and safety, which are relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to provide insights into the design challenges and strategies for ensuring reliability in hardware systems for autonomous applications, which can be relevant to the discussion of hardware fault tolerance for deep learning.
+Relevance rating: 5
+---
+id: 4
+Title: Functional Criticality Classification of Structural Faults in AI Accelerators
+Relation: This paper focuses on classifying structural faults in AI accelerators and assessing their functional criticality, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the classification and assessment of structural faults in AI accelerators and their impact on deep learning computations.
+Relevance rating: 7
+---
+id: 5
+Title: Accelerator-friendly neural-network training: Learning variations and defects in RRAM crossbar
+Relation: This paper focuses on addressing resistance variations and stuck-at faults in RRAM crossbars, which are crucial for achieving fault tolerance in hardware for deep learning.
+Suggestion: This paper can be cited to discuss the impact of resistance variations and stuck-at faults in RRAM crossbars on the classification accuracy of neural networks, and the proposed method for achieving fault tolerance.
+Relevance rating: 7
+---
+id: 6
+Title: Training Techniques to Obtain Fault Tolerant Neural Networks
+Relation: The paper discusses methods for improving fault tolerance in neural networks, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper provides insights into training techniques for improving fault tolerance in neural networks, which can be compared and contrasted with fault tolerance techniques in hardware for deep learning.
+Relevance rating: 7
+---
+id: 7
+Title: Sensitivity based error resilient techniques for energy efficient deep neural network accelerators
+Relation: The paper focuses on error resilient techniques for energy efficient DNN accelerator design, which is related to the topic of hardware error fault tolerance for deep learning in terms of addressing computational errors caused by hardware circuit errors.
+Suggestion: This paper can be used to discuss the specific error resilient techniques for energy efficient DNN accelerator design in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 8
+Title: PIM-Prune: Fine-Grain DCNN pruning for crossbar-based process-in-memory architecture
+Relation: This paper focuses on fine-grain DCNN pruning for a crossbar-based PIM architecture, aiming to reduce resource and power consumption, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the application of fine-grain pruning in crossbar-based PIM architecture for reducing resource and power consumption in deep learning hardware.
+Relevance rating: 7
+---
+id: 9
+Title: Hardware implementation of a fault-tolerant Hopfield Neural Network on FPGAs
+Relation: The paper discusses the hardware implementation of a fault-tolerant neural network and evaluates its robustness against circuit errors, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the implementation of fault-tolerant neural networks on hardware, and the evaluation of its robustness against circuit errors in the context of deep learning.
+Relevance rating: 7
+---
+id: 10
+Title: Retraining-based timing error mitigation for hardware neural networks
+Relation: The paper focuses on mitigating timing errors in neural network accelerators by leveraging the error resiliency of neural networks, which is related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the approach of leveraging the error resiliency of neural networks to mitigate timing errors in hardware neural networks for deep learning applications.
+Relevance rating: 7
+---
+id: 11
+Title: Efficient Error-Tolerant Quantized Neural Network Accelerators
+Relation: The paper focuses on evaluating the impact of permanent faults affecting Quantized Neural Networks (QNNs) and proposes methods to increase their robustness in hardware accelerators, which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the impact of permanent faults on Quantized Neural Networks and the proposed methods for increasing their robustness in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 12
+Title: Importance-Driven Deep Learning System Testing
+Relation: The paper introduces a systematic testing methodology and test adequacy criterion for deep learning systems, which is relevant to the evaluation of hardware fault tolerance for deep learning in safety-critical applications.
+Suggestion: This paper can be used to discuss the importance of systematic testing and test adequacy criteria for deep learning systems in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 13
+Title: Making Convolutions Resilient via Algorithm-Based Error Detection Techniques
+Relation: This paper focuses on algorithmically verifying convolutions in CNNs to ensure resilience to hardware faults, which aligns with the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the practical feasibility and performance of algorithm-based error detection techniques for deep learning hardware fault tolerance in the literature review.
+Relevance rating: 7
+---
+id: 14
+Title: Fidelity: Efficient resilience analysis framework for deep learning accelerators
+Relation: The paper presents a resilience analysis framework for deep learning accelerators, focusing on hardware errors and ensuring reliability, which is directly related to the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to discuss the development of a resilience analysis framework for deep learning accelerators and the importance of ensuring reliability in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 8
+---
+id: 15
+Title: FT-ClipAct: Resilience analysis of deep neural networks and improving their fault tolerance using clipped activation
+Relation: This paper focuses on analyzing fault tolerance of deep neural networks and proposes a novel error mitigation technique to improve resilience against hardware faults, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be cited as an example of a novel error mitigation technique to improve fault tolerance in deep neural networks when discussing fault tolerance design for deep learning hardware.
+Relevance rating: 7
+---
+id: 16
+Title: Concurrent Detection of Failures in GPU Control Logic for Reliable Parallel Computing
+Relation: The paper focuses on detecting failures in GPU control logic to improve reliability, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the challenges and techniques for detecting hardware failures in GPUs, providing insights into fault tolerance for deep learning hardware.
+Relevance rating: 7
+---
+id: 17
+Title: A singular value perspective on model robustness
+Relation: The paper explores the generalization behavior of CNNs and its relationship with Singular Value Decomposition (SVD) of images, which is relevant to understanding the robustness of deep learning models in the context of hardware error fault tolerance.
+Suggestion: This paper can be used to discuss the relationship between model robustness and hardware error fault tolerance in deep learning, particularly in the context of understanding the generalization behavior of CNNs.
+Relevance rating: 7
+---
+id: 18
+Title: FPGA-based Fault-injection and Data Acquisition of Self-repairing Spiking Neural Network Hardware
+Relation: This paper focuses on FPGA-based fault injection and data acquisition for a self-repairing spiking neural network hardware, which aligns with the topic of hardware fault tolerance for deep learning in terms of fault injection and monitoring.
+Suggestion: This paper can be used to discuss the application of FPGA-based fault tolerance techniques in the context of deep learning hardware error fault tolerance.
+Relevance rating: 7
+---
+id: 19
+Title: SHIELDeNN: Online accelerated framework for fault-tolerant deep neural network architectures
+Relation: The paper proposes SHIELDeNN, an error-resilient neural network framework, which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss a specific fault-tolerant framework for deep neural network architectures in the literature review.
+Relevance rating: 7
+---
+id: 20
+Title: MATIC: Learning around errors for efficient low-voltage neural network accelerators
+Relation: The paper proposes a methodology for improving the energy-efficiency of DNN accelerators by enabling aggressive voltage scaling and error resilience, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the potential methods for improving hardware fault tolerance in deep learning accelerators through voltage scaling and error resilience.
+Relevance rating: 7
+---
+id: 21
+Title: EDEN: Enabling energy-efficient, high-performance deep neural network inference using approximate DRAM
+Relation: The paper proposes a framework, EDEN, to reduce energy consumption and evaluation latency of deep neural network (DNN) inference systems using approximate DRAM devices, which is related to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited as an example of using approximate memory to improve energy efficiency and performance of DNN inference systems, while addressing the trade-off with reliability.
+Relevance rating: 7
+---
+id: 22
+Title: A Regularizer Approach for RBF Networks Under the Concurrent Weight Failure Situation
+Relation: The paper focuses on fault tolerance in neural networks, specifically addressing the impact of weight failures on the performance of radial basis function (RBF) networks.
+Suggestion: This paper can be used to understand fault tolerance techniques for neural networks and to compare fault tolerance strategies in deep learning with those in RBF networks.
+Relevance rating: 7
+---
+id: 23
+Title: Understanding error propagation in Deep Learning Neural Network (DNN) accelerators and applications
+Relation: The paper focuses on evaluating the resilience characteristics of DNN systems running on specialized accelerators and proposes protection techniques, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the impact of hardware errors on DNN systems and the evaluation of resilience characteristics in the context of specialized accelerators.
+Relevance rating: 7
+---
+id: 24
+Title: RRAMedy: Protecting ReRAM-based neural network from permanent and soft faults during its lifetime
+Relation: The paper focuses on protecting ReRAM-based neural networks from permanent and soft faults, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the specific techniques for fault detection and network remedy in ReRAM-based neural accelerators within the context of hardware fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 25
+Title: Soft Error Mitigation for Deep Convolution Neural Network on FPGA Accelerators
+Relation: The paper focuses on mitigating the impact of single event upsets (SEU) in FPGA devices on the performance of convolutional neural networks (CNNs), which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss fault-tolerant design strategies for FPGA-based CNN accelerators in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 26
+Title: FTT-NAS: Discovering Fault-Tolerant Neural Architecture
+Relation: This paper focuses on developing fault-tolerant neural architecture for edge devices, addressing the impact of hardware faults on deep learning applications, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to discuss the development of fault-tolerant neural architecture for edge devices and the impact of hardware faults on deep learning applications.
+Relevance rating: 7
+---
+id: 27
+Title: Selective hardening for neural networks in FPGAs
+Relation: This paper evaluates the effects of radiation-induced errors in neural networks implemented in FPGAs and proposes a selective hardening strategy to mitigate these errors, which is directly related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the susceptibility of FPGAs to radiation-induced errors and the proposed selective hardening strategy as a method for fault tolerance in deep learning hardware.
+Relevance rating: 8
+---
+id: 28
+Title: INA: Incremental network approximation algorithm for limited precision deep neural networks
+Relation: The paper proposes a hardware-software co-design algorithm, INA, to improve fault tolerance of Deep Neural Networks (DNNs) by addressing the convergence problem and achieving tradeoffs between accuracy and implementation cost, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the hardware-software co-design approach for improving fault tolerance in DNNs and the tradeoffs between accuracy and implementation cost in the context of hardware error fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 29
+Title: A fault-tolerant neural network architecture
+Relation: The paper proposes a fault-tolerant neural network architecture to mitigate weight disturbance in DNN accelerators, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the design of fault-tolerant neural network architecture for mitigating hardware-related errors in deep learning computations.
+Relevance rating: 7
+---
+id: 30
+Title: Process variation mitigation on convolutional neural network accelerator architecture
+Relation: The paper focuses on mitigating process variation in CNN accelerators, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the impact of process variation on CNN accelerator performance and the proposed techniques for fault tolerance in the context of deep learning hardware error fault tolerance.
+Relevance rating: 7
+---
+id: 31
+Title: Relaxed fault-tolerant hardware implementation of neural networks in the presence of multiple transient errors
+Relation: The paper discusses fault tolerance techniques for VLSI implementation of neural networks, which is relevant to the topic of hardware error fault tolerance for deep learning in the presence of transient errors.
+Suggestion: This paper provides insights into relaxed fault-tolerant techniques for VLSI implementation of neural networks, which can be used to compare with other fault tolerance methods in deep learning hardware.
+Relevance rating: 7
+---
+id: 32
+Title: Criticality aware soft error mitigation in the configuration memory of SRAM based FPGA
+Relation: The paper discusses error mitigation techniques for SRAM-based FPGAs, considering the criticality of tasks allocated in the configuration memory, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to explore the application of dynamic priority-based hardware scheduling algorithms for error correction in hardware fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 33
+Title: A survey on modeling and improving reliability of DNN algorithms and accelerators
+Relation: The paper discusses techniques for studying and optimizing the reliability of DNN accelerators and architectures, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to understand the unique characteristics of DNN algorithms/accelerators and the techniques for improving their reliability in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 34
+Title: Energy proportional neural network inference with adaptive voltage and frequency scaling
+Relation: This paper focuses on optimizing the energy efficiency of neural network inference through voltage and frequency scaling, which is relevant to the topic of hardware fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the optimization of energy efficiency in neural network hardware design for fault tolerance in deep learning applications.
+Relevance rating: 7
+---
+id: 35
+Title: Sanity-Check: Boosting the Reliability of Safety-Critical Deep Neural Network Applications
+Relation: The paper focuses on boosting the reliability of safety-critical deep neural network applications by addressing hardware-level faults, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to explore the implementation of fault tolerance methods, such as Sanity-Check, for deep learning hardware error fault tolerance in safety-critical applications.
+Relevance rating: 7
+---
+id: 36
+Title: GreenTPU: Predictive Design Paradigm for Improving Timing Error Resilience of a Near-Threshold Tensor Processing Unit
+Relation: The paper focuses on improving timing error resilience in a near-threshold tensor processing unit (TPU) to reduce energy consumption, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the design paradigm for improving timing error resilience in TPUs and its impact on energy consumption in the context of hardware fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 37
+Title: Robustness of Neural Networks against Storage Media Errors
+Relation: The paper investigates the impact of storage media errors on neural network parameters and proposes a detection approach to improve robustness, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the impact of storage media errors on neural network robustness and the proposed detection approach as a potential method for fault tolerance in deep learning hardware.
+Relevance rating: 7
+---
+id: 38
+Title: On the Resilience of RTL NN Accelerators: Fault Characterization and Mitigation
+Relation: This paper focuses on studying the resilience of hardware accelerators for neural networks, specifically on fault characterization and mitigation, which is directly related to the topic of hardware error fault tolerance for deep learning in the literature review.
+Suggestion: This paper provides insights into fault characterization and mitigation for hardware accelerators in neural networks, which can be used to discuss the challenges and potential solutions for hardware error fault tolerance in deep learning.
+Relevance rating: 7
+---
+id: 39
+Title: Engineering reliable deep learning systems
+Relation: The paper discusses the need for reliability and maintainability of AI applications, which is related to the topic of ensuring hardware fault tolerance for deep learning systems.
+Suggestion: This paper can be used to provide context on the importance of reliability in AI systems and the need for systematic approaches in AI engineering for the literature review.
+Relevance rating: 7
+---
+id: 40
+Title: Accurate neuron resilience prediction for a flexible reliability management in neural network accelerators
+Relation: The paper focuses on predicting error resilience of neurons in deep neural networks to improve hardware reliability, which is directly related to the topic of hardware error fault tolerance for deep learning in safety-critical applications.
+Suggestion: This paper can be used to discuss the importance of predicting error resilience in deep neural networks for hardware fault tolerance in safety-critical applications.
+Relevance rating: 7
+---
+id: 41
+Title: Accurate neuron resilience prediction for a flexible reliability management in neural network accelerators
+Relation: The paper focuses on predicting error resilience of neurons in deep neural networks to improve hardware reliability, which aligns with the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the importance of predicting error resilience in deep neural networks for hardware fault tolerance in deep learning systems.
+Relevance rating: 7
+---
+id: 42
+Title: An Efficient Bit-Flip Resilience Optimization Method for Deep Neural Networks
+Relation: The paper focuses on optimizing the resilience of deep neural networks against errors, which is directly related to the topic of hardware error fault tolerance for deep learning in the literature review.
+Suggestion: This paper can be used to discuss the specific methods for optimizing resilience in deep neural networks and how it relates to hardware error fault tolerance in deep learning.
+Relevance rating: 7
+---
+id: 43
+Title: Robust machine learning systems: Challenges, current trends, perspectives, and the road ahead
+Relation: The paper discusses challenges and solutions for security attacks on machine learning-inspired hardware and software techniques, which is related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the challenges and potential solutions for security attacks on machine learning hardware and software in the context of fault tolerance for deep learning.
+Relevance rating: 7
+---
+id: 44
+Title: DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration
+Relation: The paper proposes a dynamic quantization technique for deep neural network acceleration, which is relevant to the topic of hardware fault tolerance for deep learning as it addresses the precision of DNN models based on sensitive regions in the feature map to achieve greater acceleration while maintaining accuracy.
+Suggestion: This paper can be used to discuss the potential hardware fault tolerance techniques for deep learning, specifically in the context of dynamic quantization for DNN acceleration.
+Relevance rating: 7
+---
+id: 45
+Title: ITT-RNA: Imperfection Tolerable Training for RRAM-Crossbar-Based Deep Neural-Network Accelerator
+Relation: The paper discusses the fault tolerance of RRAM-crossbar-based accelerators for deep neural networks, addressing the impact of fabrication imperfections on accuracy and proposing hardware and software co-design methodologies to mitigate errors.
+Suggestion: This paper can be used to discuss the fault tolerance challenges and solutions in RRAM-crossbar-based accelerators for deep learning, particularly in addressing the impact of fabrication imperfections on accuracy and proposing hardware and software co-design methodologies to mitigate errors.
+Relevance rating: 7
+---
+id: 46
+Title: Algorithm-hardware co-design of adaptive floating-point encodings for resilient deep learning inference
+Relation: The paper focuses on the co-design of adaptive floating-point encodings for deep learning inference, aiming to improve accuracy and efficiency, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be cited to discuss the co-design approaches for adaptive floating-point encodings and their impact on fault tolerance in deep learning hardware.
+Relevance rating: 7
+---
+id: 47
+Title: A defect-tolerant accelerator for emerging high-performance applications
+Relation: This paper focuses on the design of defect-tolerant accelerators for high-performance applications, particularly in the context of hardware neural networks, which aligns with the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the development of defect-tolerant hardware accelerators for deep learning applications, highlighting the potential for fault tolerance in hardware neural networks.
+Relevance rating: 7
+---
+id: 48
+Title: Fault and Error Tolerance in Neural Networks: A Review
+Relation: This paper provides a comprehensive review of fault tolerance in neural networks, focusing on hardware design and fault-tolerant computing solutions, which is directly related to the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to provide an overview of fault tolerance techniques in neural networks and to discuss the potential application of these techniques in deep learning hardware design.
+Relevance rating: 7
+---
+id: 49
+Title: Fault and Error Tolerance in Neural Networks: A Review
+Relation: This paper provides a comprehensive review of fault tolerance in neural networks, focusing on hardware design and fault-tolerant computing solutions, which is directly related to the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to provide an overview of fault tolerance techniques in neural networks and to compare them with fault tolerance approaches in deep learning hardware.
+Relevance rating: 8
+---
+id: 50
+Title: Non-Singular Adversarial Robustness of Neural Networks
+Relation: This paper focuses on the robustness of neural networks against input and weight perturbations, which is related to the topic of hardware error fault tolerance for deep learning in terms of addressing computational errors caused by hardware circuit errors.
+Suggestion: This paper can be used to discuss the comprehensive assessment of robustness in neural networks when considering both input and weight perturbations, which is crucial for understanding the impact of hardware errors on deep learning.
+Relevance rating: 7
+---
+id: 51
+Title: Adversarial Testing : A Novel On-line Testing Method for Deep Learning Processors
+Relation: The paper focuses on developing a fault detection method for deep learning accelerators to protect them from hardware-induced failures, which aligns with the topic of "A survey of hardware error fault tolerance for deep learning".
+Suggestion: This paper can be used to discuss the development of fault detection methods for deep learning accelerators and their relevance to hardware fault tolerance in deep learning systems.
+Relevance rating: 7
+---
+id: 52
+Title: Dynamic Adaptation of Approximate Bit-width for CNNs based on Quantitative Error Resilience
+Relation: This paper explores the use of approximate computing to reduce power consumption in CNNs by dynamically adapting the approximate bit-width, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the application of approximate computing techniques for improving fault tolerance in hardware for deep learning.
+Relevance rating: 7
+---
+id: 53
+Title: Safety design of a convolutional neural network accelerator with error localization and correction
+Relation: The paper focuses on safety design techniques for a convolutional neural network accelerator, aiming to detect and correct errors with minimal performance degradation, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss specific safety design techniques for deep learning hardware error fault tolerance and to compare with other fault tolerance methods.
+Relevance rating: 7
+---
+id: 54
+Title: Bit Error Tolerance of a CIFAR-10 Binarized Convolutional Neural Network Processor
+Relation: This paper explores the impact of bit errors on the performance of a hardware ConvNet processor, which is relevant to understanding hardware error fault tolerance for deep learning in edge devices.
+Suggestion: This paper can be used to discuss the impact of bit errors on the performance of hardware ConvNets and the potential energy savings through error tolerance in deep learning hardware.
+Relevance rating: 7
+---
+id: 55
+Title: FAT: Training Neural Networks for Reliable Inference under Hardware Faults
+Relation: The paper proposes a methodology called fault-Aware training (FAT) to make quantized neural networks (QNNs) resilient to specific fault models on the device, aiming to achieve fault tolerance for deep learning computational errors caused by hardware circuit errors, which is related to the user's literature review.
+Suggestion: This paper can be cited as an example of a novel methodology for achieving fault tolerance in deep learning hardware by injecting faults during neural network training.
+Relevance rating: 7
+---
+id: 56
+Title: INVITED: Building robust machine learning systems: Current progress, research challenges, and opportunities
+Relation: The paper discusses the challenges and opportunities in building robust machine learning systems, particularly in safety-critical applications, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the importance of reliability and security in deep learning applications, especially in safety-critical scenarios, and the challenges in building robust machine learning systems.
+Relevance rating: 7
+---
+id: 57
+Title: Fault-Tolerant Systolic Array Based Accelerators for Deep Neural Network Execution
+Relation: The paper discusses strategies for enhancing fault tolerance of systolic array based deep neural network accelerators, which is relevant to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper provides insights into fault tolerance strategies for systolic array based deep neural network accelerators, which can be used to discuss fault tolerance design in deep learning hardware.
+Relevance rating: 7
+---
+id: 58
+Title: AEP: An error-bearing neural network accelerator for energy efficiency and model protection
+Relation: The paper proposes a neural network accelerator design for IP protection by incorporating error-bearing techniques to protect the weight matrices, which is related to the topic of hardware error fault tolerance for deep learning.
+Suggestion: This paper can be used to discuss the design of hardware fault tolerance techniques for protecting neural network weight matrices and improving energy efficiency in deep learning systems.
+Relevance rating: 7

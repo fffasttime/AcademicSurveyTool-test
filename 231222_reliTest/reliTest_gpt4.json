@@ -1,0 +1,366 @@
+{
+  "SASSIFI": {
+    "base": {
+      "article_type": "article",
+      "title": "SASSIFI: An architecture-level fault injection tool for GPU application resilience evaluation",
+      "authors": [
+        "Hari, Siva Kumar Sastry",
+        "Tsai, Timothy",
+        "Stephenson, Mark",
+        "Keckler, Stephen W.",
+        "Emer, Joel"
+      ],
+      "abstract": "As GPUs become more pervasive in both scalable high-performance computing systems and safety-critical embedded systems, evaluating and analyzing their resilience to soft errors caused by high-energy particle strikes will grow increasingly important. GPU designers must develop tools and techniques to understand the effect of these soft errors on applications. This paper presents an error injection-based methodology and tool called SASSIFI to study the soft error resilience of massively parallel applications running on stateof-The-Art NVIDIA GPUs. Our approach uses a low-level assembly-language instrumentation tool called SASSI to profile and inject errors. SASSI provides efficiency by allowing instrumentation code to execute entirely on the GPU and provides the ability to inject into different architecture-visible state. For example, SASSIFI can inject errors in general-purpose registers, GPU memory, condition code registers, and predicate registers. SASSIFI can also inject errors into addresses and register indices. In this paper, we describe the SASSIFI tool, its capabilities, and present experiments to illustrate some of the analyses SASSIFI can be used to perform.",
+      "publication_year": "2017",
+      "keywords": "",
+      "doi": "10.1109/ISPASS.2017.7975296"
+    },
+    "suggestion": {
+      "relation": "This paper introduces SASSIFI, a tool for evaluating the resilience of GPU applications to soft errors, which is relevant to understanding hardware error impacts on deep learning computations.",
+      "suggestion": "Cite this paper to discuss tools and methodologies for assessing the resilience of deep learning hardware to soft errors.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "Chaudhuri2021": {
+    "base": {
+      "article_type": "article",
+      "title": "Fault-Criticality Assessment for AI Accelerators using Graph Convolutional Networks",
+      "authors": [
+        "Chaudhuri, Arjun",
+        "Talukdar, Jonti",
+        "Jung, Jinwook",
+        "Nam, Gi Joon",
+        "Chakrabarty, Krishnendu"
+      ],
+      "abstract": "Owing to the inherent fault tolerance of deep neural networks (DNNs), many structural faults in DNN accelerators tend to be functionally benign. In order to identify functionally critical faults, we analyze the functional impact of stuck-at faults in the processing elements of a 128\u00d7128 systolic-array accelerator that performs inferencing on the MNIST dataset. We present a 2-tier machine-learning framework that leverages graph convolutional networks (GCNs) for quick assessment of the functional criticality of structural faults. We describe a computationally efficient methodology for data sampling and feature engineering to train the GCN-based framework. The proposed framework achieves up to 90% classification accuracy with negligible misclassification of critical faults.",
+      "publication_year": "2021",
+      "keywords": "",
+      "doi": "10.23919/DATE51398.2021.9474128"
+    },
+    "suggestion": {
+      "relation": "The paper presents a machine-learning framework for assessing the criticality of faults in AI accelerators, which is pertinent to fault tolerance in deep learning hardware.",
+      "suggestion": "Reference this paper for its novel approach to fault-criticality assessment in deep learning accelerators using machine learning.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "FIdelity": {
+    "base": {
+      "article_type": "article",
+      "title": "Fidelity: Efficient resilience analysis framework for deep learning accelerators",
+      "authors": [
+        "He, Yi",
+        "Balaprakash, Prasanna",
+        "Li, Yanjing"
+      ],
+      "abstract": "We present a resilience analysis framework, called FIdelity, to accurately and quickly analyze the behavior of hardware errors in deep learning accelerators. Our framework enables resilience analysis starting from the very beginning of the design process to ensure that the reliability requirements are met, so that these accelerators can be safely deployed for a wide range of applications, including safety-critical applications such as self-driving cars. Existing resilience analysis techniques suffer from the following limitations: 1. general-purpose hardware techniques can achieve accurate results, but they require access to RTL to perform timeconsuming RTL simulations, which is not feasible for early design exploration; 2. general-purpose software techniques can produce results quickly, but they are highly inaccurate; 3. techniques targeting deep learning accelerators only focus on memory errors. Our FIdelity framework overcomes these limitations. FIdelity only requires a minimal amount of high-level design information that can be obtained from architectural descriptions/block diagrams, or estimated and varied for sensitivity analysis. By leveraging unique architectural properties of deep learning accelerators, we are able to systematically model a major class of hardware errors - transient errors in logic components - in software with high fidelity. Therefore, FIdelity is both quick and accurate, and does not require access to RTL. We thoroughly validate our FIdelity framework using Nvidia's open-source accelerator called NVDLA, which shows that the results are highly accurate - out of 60K fault injection experiments, the software fault models derived using FIdelity closely match the behaviors observed from RTL simulations. Using the validated FIdelity framework, we perform a large-scale resilience study on NVDLA, which consists of 46M fault injection experiments running various representative deep neural network applications. We report the key findings and architectural insights, which can be used to guide the design of future accelerators.",
+      "publication_year": "2020",
+      "keywords": "",
+      "doi": "10.1109/MICRO50266.2020.00033"
+    },
+    "suggestion": {
+      "relation": "FIdelity is a framework for analyzing hardware errors in deep learning accelerators, which aligns with the theme of hardware error fault tolerance in deep learning.",
+      "suggestion": "Utilize this paper to illustrate a framework for early-stage resilience analysis in the design of deep learning accelerators.",
+      "rating": 9
+    },
+    "sections": null
+  },
+  "Joseph2016": {
+    "base": {
+      "article_type": "article",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "authors": [
+        "Joseph, Sue"
+      ],
+      "abstract": "Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parame- ters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phe- nomenon as internal covariate shift, and ad- dress the problem by normalizing layer inputs. Our method draws its strength from making nor- malization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less care- ful about initialization, and in some cases elim- inates the need for Dropout. Applied to a state- of-the-art image classification model, Batch Nor- malization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensem- ble of batch-normalized networks, we improve upon the best published result on ImageNet clas- sification: reaching 4.82% top-5 test error, ex- ceeding the accuracy of human raters.",
+      "publication_year": "2016",
+      "keywords": "Australian literary journalism,Helen Garner,ethics,long-form narrative,missing voices,trauma,true crime",
+      "doi": "10.1080/17512786.2015.1058180"
+    },
+    "suggestion": {
+      "relation": "This paper focuses on a technique for accelerating deep learning training and does not directly address hardware error fault tolerance.",
+      "suggestion": "This paper may not be relevant for the review unless discussing the broader context of deep learning performance optimization.",
+      "rating": 2
+    },
+    "sections": null
+  },
+  "Dong2021": {
+    "base": {
+      "article_type": "article",
+      "title": "HAO: Hardware-aware Neural Architecture Optimization for Efficient Inference",
+      "authors": [
+        "Dong, Zhen",
+        "Gao, Yizhao",
+        "Huang, Qijing",
+        "Wawrzynek, John",
+        "So, Hayden K.H.",
+        "Keutzer, Kurt"
+      ],
+      "abstract": "Automatic algorithm-hardware co-design for DNN has shown great success in improving the performance of DNNs on FPGAs. However, this process remains challenging due to the intractable search space of neural network architectures and hardware accelerator implementation. Differing from existing hardware-aware neural architecture search (NAS) algorithms that rely solely on the expensive learning-based approaches, our work incorporates integer programming into the search algorithm to prune the design space. Given a set of hardware resource constraints, our integer programming formulation directly outputs the optimal accelerator configuration for mapping a DNN subgraph that minimizes latency. We use an accuracy predictor for different DNN subgraphs with different quantization schemes and generate accuracy-latency pareto frontiers. With low computational cost, our algorithm can generate quantized networks that achieve state-of-the-art accuracy and hardware performance on Xilinx Zynq (ZU3EG) FPGA for image classification on ImageNet dataset. The solution searched by our algorithm achieves 72.5% top-1 accuracy on ImageNet at framerate 50, which is 60% faster than MnasNet [37] and 135% faster than FBNet [43] with comparable accuracy.",
+      "publication_year": "2021",
+      "keywords": "Efficient Deep Learning,HW SW Codesign,Image Classification,Neural Architecture Optimization,Neural Architecture Search,Quantization",
+      "doi": "10.1109/FCCM51124.2021.00014"
+    },
+    "suggestion": {
+      "relation": "The paper discusses hardware-aware optimization of neural architectures for efficient inference, which indirectly relates to fault tolerance by optimizing hardware performance.",
+      "suggestion": "Mention this paper when exploring the intersection of hardware optimization and fault tolerance in deep learning systems.",
+      "rating": 5
+    },
+    "sections": null
+  },
+  "Yu2022": {
+    "base": {
+      "article_type": "article",
+      "title": "Hessian-Aware Pruning and Optimal Neural Implant",
+      "authors": [
+        "Yu, Shixing",
+        "Yao, Zhewei",
+        "Gholami, Amir",
+        "Dong, Zhen",
+        "Kim, Sehoon",
+        "Mahoney, Michael W.",
+        "Keutzer, Kurt"
+      ],
+      "abstract": "Pruning is an effective method to reduce the memory footprint and FLOPs associated with neural network models. However, existing structured-pruning methods often result in significant accuracy degradation for moderate pruning levels. To address this problem, we introduce a new Hessian Aware Pruning (HAP) method coupled with a Neural Implant approach that uses second-order sensitivity as a metric for structured pruning. The basic idea is to prune insensitive components and to use a Neural Implant for moderately sensitive components, instead of completely pruning them. For the latter approach, the moderately sensitive components are replaced with a low rank implant that is smaller and less computationally expensive than the original component. We use the relative Hessian trace to measure sensitivity, as opposed to the magnitude based sensitivity metric commonly used in the literature. We test HAP for both computer vision tasks and natural language tasks, and we achieve new state-of-the-art results. Specifically, HAP achieves less than 0.1%/0.5% degradation on PreResNet29/ResNet50 (CIFAR-10/ImageNet) with more than 70%/50% of parameters pruned. Meanwhile, HAP also achieves significantly better performance (up to 0.8% with 60% of parameters pruned) as compared to gradient based method for head pruning on transformer-based models. The framework has been open sourced and available online: https://github.com/yaozhewei/HAP.",
+      "publication_year": "2022",
+      "keywords": "Deep Learning,Efficient Training and Inference Methods for Networks",
+      "doi": "10.1109/WACV51458.2022.00372"
+    },
+    "suggestion": {
+      "relation": "This paper introduces a method for neural network pruning, which is more related to model optimization than hardware fault tolerance.",
+      "suggestion": "This paper might be tangentially relevant if discussing the impact of model optimization on hardware error resilience.",
+      "rating": 3
+    },
+    "sections": null
+  },
+  "Zheng2021": {
+    "base": {
+      "article_type": "article",
+      "title": "MindFI: A Fault Injection Tool for Reliability Assessment of MindSpore Applicacions",
+      "authors": [
+        "Zheng, Yang",
+        "Feng, Zhenye",
+        "Hu, Zheng",
+        "Pei, Ke"
+      ],
+      "abstract": "With the emergence of big data and remarkable improvement of computational power, deep neural network (DNN) based intelligent systems, with the superb performance on computer vision, nature language processing, and optimization processing, etc, has been acceleratingly replacing traditional software in various aspects. However, due to the uncertainty of DNN modules learned from data, the intelligent systems are more likely to exhibit incorrect behaviors. Faults in software and hardware are also inevitably in practice, where the hidden defects can easily cause model failure. These will lead to severe accidents and losses in safety-and reliability-critical scenarios, such as autonomous driving. Techniques to test the differences between actual and desired behaviors and evaluate the reliability of DNN applications at faulty conditions is therefore significant for building a trustworthy DNN system. A popular method is fault injection and various fault injection tools have been developed for ML frameworks, such as Tensorflow, PyTorch. In this paper, we present a tool, MindFI, which targets to cover a variety of faults in ML programs written in Mindspore. Data, software and hardware faults can be easily injected in general Mindspore programs. We also use MindFI to evaluate the resilience of several commonly used ML programs against a assessment metrics.",
+      "publication_year": "2021",
+      "keywords": "fault injection,neural network,reliability testing",
+      "doi": "10.1109/ISSREW53611.2021.00068"
+    },
+    "suggestion": {
+      "relation": "MindFI is a fault injection tool for assessing the reliability of DNN applications, which is relevant to the study of fault tolerance in deep learning systems.",
+      "suggestion": "Cite this paper for its contribution to fault injection methodologies in evaluating DNN application resilience.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "Li2018": {
+    "base": {
+      "article_type": "article",
+      "title": "Modeling Soft-Error propagation in programs",
+      "authors": [
+        "Li, Guanpeng",
+        "Pattabiraman, Karthik",
+        "Hari, Siva Kumar Sastry",
+        "Sullivan, Michael",
+        "Tsai, Timothy"
+      ],
+      "abstract": "As technology scales to lower feature sizes, devices become more susceptible to soft errors. Soft errors can lead to silent data corruptions (SDCs), seriously compromising the reliability of a system. Traditional hardware-only techniques to avoid SDCs are energy hungry, and hence not suitable for commodity systems. Researchers have proposed selective software-based protection techniques to tolerate hardware faults at lower costs. However, these techniques either use expensive fault injection or inaccurate analytical models to determine which parts of a program must be protected for preventing SDCs. In this work, we construct a three-level model, TRIDENT, that captures error propagation at the static data dependency, control-flow and memory levels, based on empirical observations of error propagations in programs. TRIDENT is implemented as a compiler module, and it can predict both the overall SDC probability of a given program and the SDC probabilities of individual instructions, without fault injection. We find that TRIDENT is nearly as accurate as fault injection and it is much faster and more scalable. We also demonstrate the use of TRIDENT to guide selective instruction duplication to efficiently mitigate SDCs under a given performance overhead bound.",
+      "publication_year": "2018",
+      "keywords": "Error Propagation,Error Resilience,Program Analysis,Silent Data Corruption,Soft Error",
+      "doi": "10.1109/DSN.2018.00016"
+    },
+    "suggestion": {
+      "relation": "The paper presents a model for predicting soft-error propagation in programs, which is relevant to understanding how hardware errors can affect deep learning computations.",
+      "suggestion": "Reference this paper for its predictive model of soft-error propagation, which is crucial for designing fault-tolerant deep learning systems.",
+      "rating": 6
+    },
+    "sections": null
+  },
+  "Savarese2022": {
+    "base": {
+      "article_type": "article",
+      "title": "Not All Bits have Equal Value: Heterogeneous Precisions via Trainable Noise",
+      "authors": [
+        "Savarese, Pedro",
+        "Yuan, Xin",
+        "Li, Yanjing",
+        "Maire, Michael"
+      ],
+      "abstract": "We study the problem of training deep networks while quantizing parameters and activations into low-precision numeric representations, a setting central to reducing energy consumption and inference time of deployed models. We propose a method that learns different precisions, as measured by bits in numeric representations, for different weights in a neural network, yielding a heterogeneous allocation of bits across parameters. Learning precisions occurs alongside learning weight values, using a strategy derived from a novel framework wherein the intractability of optimizing discrete precisions is approximated by training per-parameter noise magnitudes. We broaden this framework to also encompass learning precisions for hidden state activations, simultaneously with weight precisions and values. Our approach exposes the objective of constructing a low-precision inference-efficient model to the entirety of the training process. Experiments show that it finds highly heterogeneous precision assignments for CNNs trained on CIFAR and ImageNet, improving upon previous state-of-the-art quantization methods. Our improvements extend to the challenging scenario of learning reduced-precision GANs.",
+      "publication_year": "2022",
+      "keywords": "",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "This paper explores the reduction of energy consumption and inference time in deep learning models through heterogeneous precision allocation, which is indirectly related to fault tolerance by optimizing the resilience of models under hardware constraints.",
+      "suggestion": "Cite this paper to discuss the impact of precision allocation on the robustness and error resilience of deep learning models.",
+      "rating": 5
+    },
+    "sections": null
+  },
+  "Izhikevich1988": {
+    "base": {
+      "article_type": "article",
+      "title": "Simple Model of Spiking Neurons",
+      "authors": [
+        "Izhikevich, Eugene M."
+      ],
+      "abstract": "A model is presented that reproduces spiking and bursting behavior of known types of cortical neurons. The model combines the bi- ologically plausibility of Hodgkin\u2013Huxley-type dynamics and the compu- tational efficiency of integrate-and-fire neurons. Using this model, one can simulate tens of thousands of spiking cortical neurons in real time (1 ms resolution) using a desktop PC.",
+      "publication_year": "1988",
+      "keywords": "",
+      "doi": "10.1007/3-540-45961-8_7"
+    },
+    "suggestion": {
+      "relation": "The paper presents a computational model for simulating spiking neurons but does not directly address hardware fault tolerance in deep learning systems.",
+      "suggestion": "This paper should not be included in the literature review as it does not pertain to hardware error fault tolerance.",
+      "rating": 1
+    },
+    "sections": null
+  },
+  "TensorFI": {
+    "base": {
+      "article_type": "article",
+      "title": "Tensorfi: A flexible fault injection framework for tensorflow applications",
+      "authors": [
+        "Chen, Zitao",
+        "Narayanan, Niranjhana",
+        "Fang, Bo",
+        "Li, Guanpeng",
+        "Pattabiraman, Karthik",
+        "DeBardeleben, Nathan"
+      ],
+      "abstract": "As machine learning (ML) has seen increasing adoption in safety-critical domains (e.g., autonomous vehicles), the reliability of ML systems has also grown in importance. While prior studies have proposed techniques to enable efficient error-resilience (e.g., selective instruction duplication), a fundamental requirement for realizing these techniques is a detailed understanding of the application's resilience. In this work, we present TensorFI, a high-level fault injection (FI) framework for TensorFlow-based applications. TensorFI is able to inject both hardware and software faults in general TensorFlow programs. TensorFI is a configurable FI tool that is flexible, easy to use, and portable. It can be integrated into existing TensorFlow programs to assess their resilience for different fault types (e.g., faults in particular operators). We use TensorFI to evaluate the resilience of 12 ML programs, including DNNs used in the autonomous vehicle domain. The results give us insights into why some of the models are more resilient. We also present two case studies to demonstrate the usefulness of the tool. TensorFI is publicly available at https://github.com/DependableSystemsLab/TensorFI.",
+      "publication_year": "2020",
+      "keywords": "Fault Injection,Machine Learning,Resilience",
+      "doi": "10.1109/ISSRE5003.2020.00047"
+    },
+    "suggestion": {
+      "relation": "TensorFI introduces a fault injection framework for TensorFlow applications, which is highly relevant for evaluating the resilience of deep learning models to hardware errors.",
+      "suggestion": "Use this paper to discuss methods for assessing and improving the fault tolerance of deep learning systems.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "SNR2021": {
+    "base": {
+      "article_type": "article",
+      "title": "SNR: Squeezing Numerical Range Defuses Bit Error Vulnerability Surface in Deep Neural Networks",
+      "authors": [
+        "Ozen, Elbruz",
+        "Orailoglu, Alex"
+      ],
+      "abstract": "As deep learning algorithms are widely adopted, an increasing number of them are positioned in embedded application domains with strict reliability constraints. The expenditure of significant resources to satisfy performance requirements in deep neural network accelerators has thinned out the margins for delivering safety in embedded deep learning applications, thus precluding the adoption of conventional fault tolerance methods. The potential of exploiting the inherent resilience characteristics of deep neural networks remains though unexplored, offering a promising low-cost path towards safety in embedded deep learning applications. This work demonstrates the possibility of such exploitation by juxtaposing the reduction of the vulnerability surface through the proper design of the quantization schemes with shaping the parameter distributions at each layer through the guidance offered by appropriate training methods, thus delivering deep neural networks of high resilience merely through algorithmic modifications. Unequaled error resilience characteristics can be thus injected into safety-critical deep learning applications to tolerate bit error rates of up to at absolutely zero hardware, energy, and performance costs while improving the error-free model accuracy even further.",
+      "publication_year": "2021",
+      "keywords": "Error resilience,neural network quantization,neural network regularization",
+      "doi": "10.1145/3477007"
+    },
+    "suggestion": {
+      "relation": "This work focuses on enhancing the resilience of deep neural networks to bit errors through algorithmic modifications, which is pertinent to the fault tolerance of hardware in deep learning.",
+      "suggestion": "Cite this paper to illustrate algorithmic strategies for mitigating hardware-induced errors in deep learning applications.",
+      "rating": 7
+    },
+    "sections": null
+  },
+  "Huang2023": {
+    "base": {
+      "article_type": "article",
+      "title": "Statistical Modeling of Soft Error Influence on Neural Networks",
+      "authors": [
+        "Huang, Haitong",
+        "Xue, Xinghua",
+        "Liu, Cheng",
+        "Wang, Ying",
+        "Luo, Tao",
+        "Cheng, Long",
+        "Li, Huawei",
+        "Li, Xiaowei"
+      ],
+      "abstract": "Soft errors in large VLSI circuits have a significant impact on computing- and memory-intensive neural network (NN) processing. Understanding the influence of soft errors on NNs is critical to protect against soft errors for reliable NN processing. Prior work mainly relies on fault simulation to analyze the influence of soft errors on NN processing. They are accurate but usually specific to limited configurations of errors and NN models due to the prohibitively slow simulation speed especially for large NN models and datasets. With the observation that the influence of soft errors propagates across a large number of neurons and accumulates as well, we propose to characterize the soft error-induced data disturbance on each neuron with a normal distribution model using the central limit theorem and develop a series of statistical models to analyze the behavior of NN models under soft errors in general. The statistical models reveal not only the correlation between soft errors and the accuracy of NN models but also how NN parameters, such as quantization and architecture affect the reliability of NNs. The proposed models are compared with fault simulations and verified comprehensively. In addition, we observe that the statistical models that characterize the soft error influence can also be utilized to predict fault simulation results in many cases and we explore the use of the proposed statistical models to accelerate fault simulations of NNs. Our experiments show that the proposed accelerated fault simulation provides almost two orders of magnitude speedup with negligible loss of simulation accuracy compared to the baseline fault simulations.",
+      "publication_year": "2023",
+      "keywords": "Fault analysis,fault simulation,neural network (NN) reliability,statistical fault modeling",
+      "doi": "10.1109/TCAD.2023.3266405"
+    },
+    "suggestion": {
+      "relation": "The paper proposes statistical models to understand the influence of soft errors on neural networks, which is directly related to the topic of hardware fault tolerance in deep learning.",
+      "suggestion": "Reference this paper for its approach to modeling and analyzing the impact of hardware errors on neural network reliability.",
+      "rating": 9
+    },
+    "sections": null
+  },
+  "Ares2018": {
+    "base": {
+      "article_type": "inproceedings",
+      "title": "Ares: A framework for quantifying the resilience of deep neural networks",
+      "authors": [
+        "Reagen, Brandon",
+        "Gupta, Udit",
+        "Pentecost, Lillian",
+        "Whatmough, Paul",
+        "Lee, Sae Kyu",
+        "Mulholland, Niamh",
+        "Brooks, David",
+        "Wei, Gu Yeon"
+      ],
+      "abstract": "As the use of deep neural networks continues to grow, so does the fraction of compute cycles devoted to their execution. This has led the CAD and architecture communities to devote considerable attention to building DNN hardware. Despite these efforts, the fault tolerance of DNNs has generally been overlooked. This paper is the first to conduct a large-scale, empirical study of DNN resilience. Motivated by the inherent algorithmic resilience of DNNs, we are interested in understanding the relationship between fault rate and model accuracy. To do so, we present Ares: A light-weight, DNN-specific fault injection framework validated within 12% of real hardware. We find that DNN fault tolerance varies by orders of magnitude with respect to model, layer type, and structure.",
+      "publication_year": "2018",
+      "keywords": "",
+      "doi": "10.1145/3195970.3195997"
+    },
+    "suggestion": {
+      "relation": "Ares is a framework for quantifying the resilience of deep neural networks, which is essential for understanding and improving hardware fault tolerance in these systems.",
+      "suggestion": "Cite this paper to discuss empirical studies on the fault tolerance of various deep neural network architectures.",
+      "rating": 8
+    },
+    "sections": null
+  },
+  "Mahmoud2020": {
+    "base": {
+      "article_type": "article",
+      "title": "HarDNN: Feature Map Vulnerability Evaluation in CNNs",
+      "authors": [
+        "Mahmoud, Abdulrahman",
+        "Hari, Siva Kumar Sastry",
+        "Fletcher, Christopher W.",
+        "Adve, Sarita V.",
+        "Sakr, Charbel",
+        "Shanbhag, Naresh",
+        "Molchanov, Pavlo",
+        "Sullivan, Michael B.",
+        "Tsai, Timothy",
+        "Keckler, Stephen W."
+      ],
+      "abstract": "As Convolutional Neural Networks (CNNs) are increasingly being employed in safety-critical applications, it is important that they behave reliably in the face of hardware errors. Transient hardware errors may percolate undesirable state during execution, resulting in software-manifested errors which can adversely affect high-level decision making. This paper presents HarDNN, a software-directed approach to identify vulnerable computations during a CNN inference and selectively protect them based on their propensity towards corrupting the inference output in the presence of a hardware error. We show that HarDNN can accurately estimate relative vulnerability of a feature map (fmap) in CNNs using a statistical error injection campaign, and explore heuristics for fast vulnerability assessment. Based on these results, we analyze the tradeoff between error coverage and computational overhead that the system designers can use to employ selective protection. Results show that the improvement in resilience for the added computation is superlinear with HarDNN. For example, HarDNN improves SqueezeNet's resilience by 10x with just 30% additional computations.",
+      "publication_year": "2020",
+      "keywords": "",
+      "doi": ""
+    },
+    "suggestion": {
+      "relation": "HarDNN evaluates the vulnerability of CNN feature maps to hardware errors and proposes selective protection strategies, aligning closely with the literature review's focus on fault tolerance.",
+      "suggestion": "Include this paper to discuss software-directed approaches to enhancing the resilience of deep learning models against hardware errors.",
+      "rating": 9
+    },
+    "sections": null
+  },
+  "Baier2017": {
+    "base": {
+      "article_type": "article",
+      "title": "A rollout-based search algorithm unifying MCTS and alpha-beta",
+      "authors": [
+        "Baier, Hendrik"
+      ],
+      "abstract": "Monte Carlo Tree Search (MCTS) has been found to be a weaker player than minimax in some tactical domains, partly due to its highly selective focus only on the most promising moves. In order to combine the strategic strength of MCTS and the tactical strength of minimax, MCTS-minimax hybrids have been introduced in prior work, embedding shallow minimax searches into the MCTS framework. This paper continues this line of research by integrating MCTS and minimax even more tightly into one rollout-based hybrid search algorithm, MCTS-$\\alpha$$\\beta$. The hybrid is able to execute two types of rollouts: MCTS rollouts and alpha-beta rollouts, i.e. rollouts implementing minimax with alpha-beta pruning and iterative deepening. During the search, all nodes accu-mulate both MCTS value estimates as well as alpha-beta value bounds. The two types of information are combined in a given tree node when-ever alpha-beta completes a deepening iteration rooted in that node\u2014by increasing the MCTS value estimates for the best move found by alpha-beta. A single parameter, the probability of executing MCTS rollouts vs. alpha-beta rollouts, makes it possible for the hybrid to subsume both MCTS as well as alpha-beta search as extreme cases, while allowing for a spectrum of new search algorithms in between. Preliminary results in the game of Breakthrough show the proposed hybrid to outperform its special cases of alpha-beta and MCTS. These results are promising for the further development of rollout-based algo-rithms that unify MCTS and minimax approaches.",
+      "publication_year": "2017",
+      "keywords": "",
+      "doi": "10.1007/978-3-319-57969-6_5"
+    },
+    "suggestion": {
+      "relation": "This paper discusses a search algorithm that combines MCTS and alpha-beta pruning, which is unrelated to hardware fault tolerance in deep learning.",
+      "suggestion": "Exclude this paper as it does not contribute to the topic of hardware error fault tolerance for deep learning.",
+      "rating": 1
+    },
+    "sections": null
+  }
+}
